@@ -1,0 +1,1734 @@
+# Copyright (C) 2018 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: mirrorgridofficial@gmail.com\n"
+"POT-Creation-Date: 2018-12-31 03:45:42+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: core/admin/class-newspaper-lite-admin.php:357
+#: core/admin/class-newspaper-lite-admin.php:358
+msgid "6"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:352
+msgid "7"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:333
+msgid "15"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:353
+msgid "16"
+msgstr ""
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid "error"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: comments.php:55 comments.php:76
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:58 comments.php:79
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:59 comments.php:80
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:93
+msgid "Comments are closed."
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:36
+#: core/admin/class-newspaper-lite-admin.php:122
+msgid "About"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:76
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:80
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:95
+msgid "Dismiss"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:98
+#. translators: 1: anchor tag start, 2: anchor tag end
+msgid ""
+"Welcome! Thank you for choosing newspaper lite! To fully take advantage of "
+"the best our theme can offer please make sure you visit our %1$swelcome "
+"page%1$s."
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:102
+msgid "Get started with Newspaper_Lite"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:138
+msgid "Theme Info"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:142
+msgid "View Demo"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:146
+msgid "Rate this theme"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:149
+msgid "View Pro Version"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:165
+msgid "Changelog"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:173
+msgid "Free Vs Pro"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:208
+msgid "Theme Customizer"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:209
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:211
+msgid "Customize"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:216
+#: core/admin/class-newspaper-lite-admin.php:219
+msgid "Documentation"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:217
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:224
+msgid "Got theme support question?"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:225
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:227
+#: core/admin/class-newspaper-lite-admin.php:321
+msgid "Support"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:231
+msgid "Any question about this theme or us?"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:232
+msgid "Please send it via our sales contact page."
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:234
+msgid "Contact Page"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:241
+#: core/admin/class-newspaper-lite-admin.php:250
+msgid "Translate"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:245
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:262
+msgid "Return to Updates"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:262
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:265
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:265
+msgid "Go to Dashboard"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:282
+msgid "View changelog below:"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:309
+msgid "Upgrade to PRO version for more awesome features."
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:314
+msgid "Features"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:315
+msgid "Newspaper Lite"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:316
+msgid "Newspaper Plus"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:322
+msgid "Forum"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:323
+msgid "Forum + Emails/Support Ticket"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:326
+msgid "Category color options"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:331
+msgid "Additional color options"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:336
+msgid "Primary color option"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:341
+msgid "Font size options"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:346
+msgid "Google fonts options"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:348
+msgid "500+"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:351
+msgid "Custom widgets"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:356
+msgid "Social icons"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:361
+msgid "Social sharing"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:366
+msgid "Site layout option"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:371
+msgid "Options in breaking news"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:376
+msgid "Change read more text"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:381
+msgid "Related posts"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:386
+msgid "Author biography"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:391
+msgid "Footer copyright editor"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:396
+msgid "728x90 Advertisement"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:401
+msgid "Featured category slider"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:406
+msgid "Random posts widget"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:411
+msgid "Tabbed widget"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:416
+msgid "Videos"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:422
+msgid "WooCommerce compatible"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:427
+msgid "Multiple header options"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:432
+msgid "Readmore flying card"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:437
+msgid "Weather widget"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:442
+msgid "Currency converter widget"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:447
+msgid "Category enable/disable option"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:452
+msgid "Reading indicator option"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:457
+msgid "Lightbox support"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:462
+msgid "Call to action widget"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:467
+msgid "Contact us template"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:477
+msgid "View Pro"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:524
+msgid "This theme recommends following plugins:"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:527
+msgid "Social Icons"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:528
+#: core/admin/class-newspaper-lite-admin.php:532
+msgid " by Mirrorgrid Store"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:531
+msgid "Easy Social Sharing"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:535
+msgid "Contact Form 7"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:537
+msgid "WP-PageNavi"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:539
+msgid "WooCommerce"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:542
+msgid "Polylang"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:543
+#: core/admin/class-newspaper-lite-admin.php:548
+msgid "Fully Compatible in Pro Version"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:547
+msgid "WPML"
+msgstr ""
+
+#: core/admin/inc/metaboxes/newspaper-lite-post-metabox.php:14
+#: core/admin/inc/metaboxes/newspaper-lite-post-metabox.php:22
+msgid "Sidebar Position"
+msgstr ""
+
+#: core/admin/inc/metaboxes/newspaper-lite-post-metabox.php:37
+msgid "Default Layout"
+msgstr ""
+
+#: core/admin/inc/metaboxes/newspaper-lite-post-metabox.php:42
+msgid "Right Sidebar"
+msgstr ""
+
+#: core/admin/inc/metaboxes/newspaper-lite-post-metabox.php:47
+#: core/widgets/newspaper-lite-widgets-area.php:23
+msgid "Left Sidebar"
+msgstr ""
+
+#: core/admin/inc/metaboxes/newspaper-lite-post-metabox.php:52
+msgid "No Sidebar Full Width"
+msgstr ""
+
+#: core/admin/inc/metaboxes/newspaper-lite-post-metabox.php:57
+msgid "No Sidebar Content Centered"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-custom-classes.php:23
+msgid "&mdash; Select Category &mdash;"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:34
+msgid "Fullwidth Layout"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:35
+#: core/admin/inc/panels/general-panel.php:88
+msgid "Boxed Layout"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:47
+msgid "Default Skin"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:59
+#: core/admin/inc/panels/design-panel.php:179
+#: core/admin/inc/panels/header-panel.php:59
+#: core/admin/inc/panels/header-panel.php:133
+#: core/admin/inc/panels/header-panel.php:185
+#: core/admin/inc/panels/header-panel.php:223
+#: core/admin/inc/panels/header-panel.php:262
+msgid "Enable"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:60
+#: core/admin/inc/panels/design-panel.php:180
+#: core/admin/inc/panels/header-panel.php:60
+#: core/admin/inc/panels/header-panel.php:134
+#: core/admin/inc/panels/header-panel.php:186
+#: core/admin/inc/panels/header-panel.php:224
+#: core/admin/inc/panels/header-panel.php:263
+msgid "Disable"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:72
+#: core/admin/inc/panels/header-panel.php:106
+msgid "Yes"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:73
+#: core/admin/inc/panels/header-panel.php:107
+msgid "No"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:85
+#: core/admin/inc/panels/design-panel.php:153
+msgid "Show"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:86
+#: core/admin/inc/panels/design-panel.php:154
+msgid "Hide"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:98
+#: core/admin/inc/panels/design-panel.php:85
+msgid "Classic Layout"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:99
+#: core/admin/inc/panels/design-panel.php:86
+msgid "Columns Layout"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:126
+#: core/admin/inc/panels/design-panel.php:301
+msgid "One Column"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:127
+#: core/admin/inc/panels/design-panel.php:302
+msgid "Two Columns"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:128
+#: core/admin/inc/panels/design-panel.php:303
+msgid "Three Columns"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:129
+#: core/admin/inc/panels/design-panel.php:304
+msgid "Four Columns"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:141
+#: core/admin/inc/panels/design-panel.php:223
+msgid "by Category"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:142
+#: core/admin/inc/panels/design-panel.php:224
+msgid "by Tags"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:154
+#: core/admin/inc/panels/design-panel.php:355
+#: core/newspaper-lite-functions.php:757 core/newspaper-lite-functions.php:770
+msgid "Default"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:155
+#: core/admin/inc/panels/design-panel.php:356
+msgid "Dark Skin"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:166
+msgid "Format 1 (default)"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:167
+msgid "Format 2"
+msgstr ""
+
+#: core/admin/inc/newspaper-lite-sanitize.php:168
+msgid "Format 3"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:23
+msgid "Additional Settings"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:31
+msgid "Categories Color"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:58
+#. translators: %s: category namet
+msgid " %s"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:71
+msgid "Social Media"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:92
+msgid "Facebook"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:93
+msgid "Your Facebook Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:113
+msgid "Twitter"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:114
+msgid "Your Twitter Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:134
+msgid "Google Plus"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:135
+msgid "Your Google Plus Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:155
+msgid "LinkedIn"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:156
+msgid "Your LinkedIn Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:176
+msgid "YouTube"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:177
+msgid "Your YouTube Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:197
+msgid "Vimeo"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:198
+msgid "Your Vimeo Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:218
+msgid "Pinterest"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:219
+msgid "Your Pinterest Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:239
+msgid "Instagram"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:240
+msgid "Your Instagram Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:23
+msgid "Design Settings"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:34
+msgid "Archive Settings"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:55
+#: core/admin/inc/panels/design-panel.php:120
+#: core/admin/inc/panels/design-panel.php:258
+msgid "Available Sidebars"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:56
+msgid "Select sidebar for whole site archives, categories, search page etc."
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:81
+msgid "Archive Page Layout"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:82
+msgid "Choose available layout for all archive pages."
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:99
+msgid "Post Settings"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:121
+msgid "Select sidebar for whole single post page."
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:148
+msgid "Author Option"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:149
+msgid "Enable/disable author information at single post page."
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:174
+msgid "Related Articles Option"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:175
+msgid "Enable/disable related articles section at single post page."
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:190
+#: core/newspaper-lite-functions.php:649
+msgid "Related Articles"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:200
+msgid "Section Title"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:219
+msgid "Types of Related Articles"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:220
+msgid "Option to display related articles from category/tags."
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:237
+msgid "Page Settings"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:259
+msgid "Select sidebar for whole single page."
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:279
+msgid "Footer Settings"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:297
+msgid "Footer Widget Area"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:298
+msgid "Choose option to display number of columns in footer area."
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:313 footer.php:23
+msgid "2018 newspaper-lite"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:323
+msgid "Copyright Info"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:333
+msgid "Website Skin"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:351
+msgid "Choose Website Skin"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:352
+msgid "Choose the  skin color for your site."
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:366
+msgid "Title Style"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:367
+msgid "Design option of title style"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:382
+msgid "Title design styles"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:393
+msgid "Title font case"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:394
+msgid "Design of font case style"
+msgstr ""
+
+#: core/admin/inc/panels/design-panel.php:409
+msgid "Title font case styles"
+msgstr ""
+
+#: core/admin/inc/panels/general-panel.php:32
+msgid "General Settings"
+msgstr ""
+
+#: core/admin/inc/panels/general-panel.php:50
+msgid "Theme color"
+msgstr ""
+
+#: core/admin/inc/panels/general-panel.php:65
+msgid "Website Layout"
+msgstr ""
+
+#: core/admin/inc/panels/general-panel.php:66
+msgid "Choose a site to display your website more effectively."
+msgstr ""
+
+#: core/admin/inc/panels/general-panel.php:84
+msgid "Site Layout"
+msgstr ""
+
+#: core/admin/inc/panels/general-panel.php:87
+msgid "Full Width Layout"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:23
+msgid "Header Settings"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:33
+msgid "Top Header Section"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:54
+msgid "News Ticker Option"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:55
+msgid "Enable/disable news ticker at header."
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:71
+#: core/newspaper-lite-functions.php:137
+msgid "Latest"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:81
+msgid "News Ticker Caption"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:101
+msgid "Show on all page"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:102
+msgid "Select yes, if you want to show ticker on all page."
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:128
+msgid "Current Date Option"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:129
+msgid "Enable/disable current date from top header."
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:152
+msgid "Current Date Format Style Options"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:153
+msgid ""
+"Choose available format for date format style. (functions only if current "
+"date option is enabled)"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:156
+msgid "Format 1 (dd,mm,yy)"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:157
+msgid "Format 2 (dd,yy,mm)"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:158
+msgid "Format 3 (yy,mm,dd)"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:180
+msgid "Social Icon Option"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:181
+msgid "Enable/disable social icons from top header (right)."
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:198
+msgid "Sticky Menu"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:218
+msgid "Menu Sticky"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:219
+msgid "Enable/disable option for Menu Sticky"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:237
+msgid "Banner Ads Section"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:257
+msgid "Google Ads"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:258
+msgid ""
+"Enable/disable responsive google ad (adsence) on banner. Please enable only "
+"if you want to show responsive google ad on banner ads section."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:327
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:44
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:328
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:45
+msgid "Install Plugins"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:330
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:47
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:332
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:49
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:333
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:50
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:370
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:87
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:375
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:92
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:380
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:97
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:385
+msgid "Return to Recommended Plugins Installer"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:386
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:827
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:387
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3159
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:103
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:388
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2952
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:104
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:390
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:106
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:392
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:108
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:394
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:110
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:395
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:111
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:396
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:112
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:397
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:113
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:934
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1982
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2392
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2396
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2400
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2603
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2608
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2614
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3498
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3501
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3503
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3509
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3512
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3517
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:3520
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/tgmpa-newspaper-lite.php:102
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:29
+#: core/widgets/newspaper-lite-widget-fields.php:228
+msgid "Upload"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:30
+#: core/widgets/newspaper-lite-widget-fields.php:230
+#: core/widgets/newspaper-lite-widget-fields.php:239
+msgid "Remove"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:196
+msgid "Select Category"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:209
+msgid "Select Tags"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:221
+msgid "Category in - All post from either or selected category"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:222
+msgid "Category and - All post that must have all selected category"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:223
+msgid "Category not in - All posts except selected category"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:233
+msgid "Tag in - All post from either or selected tag"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:234
+msgid "Tag and - All post that must have all selected tag"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:235
+msgid "Tag not in - All posts except selected tag"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:251
+msgid "Left Slider"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:252
+msgid "Right Slider"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:253
+msgid "Slider Only"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:260
+msgid "Select No. of Columns"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:261
+msgid "2 Columns"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:262
+msgid "3 Columns"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:263
+msgid "4 Columns"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:758
+msgid "Line Style"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:759
+msgid "Plain Style"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:771
+msgid "Uppercase"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:772
+msgid "Lowercase"
+msgstr ""
+
+#: core/newspaper-lite-functions.php:773
+msgid "Capitalize"
+msgstr ""
+
+#: core/template-tags.php:31
+#. translators: %s: post date
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#: core/template-tags.php:37
+#. translators: %s: post author
+msgid "<span class=\"screen-reader-text\">Author</span> %s"
+msgstr ""
+
+#: core/template-tags.php:53
+msgid "Comment(0)"
+msgstr ""
+
+#: core/template-tags.php:53
+msgid "Comment(1)"
+msgstr ""
+
+#: core/template-tags.php:53
+msgid "Comments(%)"
+msgstr ""
+
+#: core/template-tags.php:67
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: core/template-tags.php:70
+#. translators: %s: tag list
+msgid "Tagged %1$s"
+msgstr ""
+
+#: core/template-tags.php:77 template-parts/content-page.php:42
+#. translators: %s: Name of current post
+msgid "Edit %s"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-column.php:26
+msgid "Display block posts as Column layout."
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-column.php:28
+msgid "Column Block Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-column.php:43
+#: core/widgets/newspaper-lite-block-grid.php:44
+#: core/widgets/newspaper-lite-block-layout.php:46
+#: core/widgets/newspaper-lite-block-list.php:42
+msgid "Block Title"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-column.php:49
+#: core/widgets/newspaper-lite-block-grid.php:50
+msgid "Category for Block Post"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-column.php:57
+#: core/widgets/newspaper-lite-block-grid.php:66
+#: core/widgets/newspaper-lite-block-layout.php:85
+#: core/widgets/newspaper-lite-block-list.php:56
+#: core/widgets/newspaper-lite-posts-list.php:52
+msgid "No. of Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-grid.php:26
+msgid "Display block posts in grid layout."
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-grid.php:28
+msgid "Grid Block Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-grid.php:58
+msgid "No. of Columns"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-layout.php:26
+msgid "Display posts in block layout"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-layout.php:28
+msgid "Block Layout"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-layout.php:52
+#: core/widgets/newspaper-lite-block-list.php:48
+msgid "Category for Block Layout"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-layout.php:61
+msgid "Category Parameters for Block Layout"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-layout.php:68
+msgid "Tags for Block Layout"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-layout.php:77
+msgid "Tags Parameters for Block Layout"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-layout.php:91
+msgid "Layout Style"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-list.php:26
+msgid "Display posts in block list layout"
+msgstr ""
+
+#: core/widgets/newspaper-lite-block-list.php:28
+msgid "Block Posts List"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:29
+msgid "Display slider with featured posts."
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:31
+msgid "Featured Slider"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:51
+#: core/widgets/newspaper-lite-post-carousel.php:47
+msgid "Category for Slider"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:60
+msgid "Category Parameters for Slider Option"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:67
+msgid "Tags for Slider"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:76
+msgid "Tags Parameters for Slider Option"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:84
+#: core/widgets/newspaper-lite-post-carousel.php:55
+msgid "No. of slides"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:92
+msgid "Featured Posts Section"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:98
+msgid "Category for Featured Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:107
+msgid "Category Parameters for Featured Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:114
+msgid "Tags for Featured Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:123
+msgid "Tags Parameters for Featured Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-featured-slider.php:130
+msgid "Layout"
+msgstr ""
+
+#: core/widgets/newspaper-lite-post-carousel.php:26
+msgid "Display carousel with posts."
+msgstr ""
+
+#: core/widgets/newspaper-lite-post-carousel.php:28
+msgid "Carousel Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-post-carousel.php:42
+msgid "Title"
+msgstr ""
+
+#: core/widgets/newspaper-lite-post-carousel.php:61
+msgid "Carousel Autoplay Speed ( in microsecond )"
+msgstr ""
+
+#: core/widgets/newspaper-lite-post-carousel.php:68
+msgid "Show Random"
+msgstr ""
+
+#: core/widgets/newspaper-lite-posts-list.php:26
+msgid "Display latest or random posts in list view."
+msgstr ""
+
+#: core/widgets/newspaper-lite-posts-list.php:28
+msgid "Posts Lists"
+msgstr ""
+
+#: core/widgets/newspaper-lite-posts-list.php:38
+msgid "Latest Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-posts-list.php:39
+msgid "Random Posts"
+msgstr ""
+
+#: core/widgets/newspaper-lite-posts-list.php:46
+msgid "Widget Title"
+msgstr ""
+
+#: core/widgets/newspaper-lite-posts-list.php:59
+msgid "Posts Type"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widget-fields.php:183
+msgid "Widget Layout"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widget-fields.php:225
+msgid "No file chosen"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widget-fields.php:233
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: core/widgets/newspaper-lite-widget-fields.php:242
+msgid "Upload image"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widget-fields.php:253
+msgid "View File"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:13
+msgid "Sidebar"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:15
+msgid "This sidebar will appear only if you choose right sidebar."
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:25
+msgid "This sidebar will appear only if you choose left sidebar."
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:33
+msgid "Header Ads"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:35
+msgid "This sidebar will appear on header section of a page."
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:43
+msgid "Home Page Slider Area"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:45
+msgid ""
+"This sidebar will appear below header(after menu) section of News Home Page "
+"Template."
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:53
+msgid "HomePage Content Area"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:55
+msgid ""
+"This sidebar will appear below Home Page Slider section of News Home Page "
+"Template. "
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:63
+msgid "HomePage Sidebar"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:65
+msgid "Home page sidebar of News Home Page Template."
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:73
+msgid "Footer 1st Column"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:75
+msgid ""
+"First column of footer section. Appear only if at least one column footer "
+"widget area selected from customizer footer settings."
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:83
+msgid "Footer 2nd Column"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:85
+msgid ""
+"Second column of footer section. Appear only if at least two column footer "
+"widget area selected from customizer footer settings."
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:93
+msgid "Footer 3rd Column"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:95
+msgid ""
+"Third column of footer section. Appear only if at least three column footer "
+"widget area selected from customizer footer settings."
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:103
+msgid "Footer 4th Column"
+msgstr ""
+
+#: core/widgets/newspaper-lite-widgets-area.php:105
+msgid ""
+"Fourth column of footer section. Appear only if at least four column footer "
+"widget area selected from customizer footer settings."
+msgstr ""
+
+#: footer.php:28
+#. translators: %s: theme author
+msgid "Newspaper Lite by %1$s."
+msgstr ""
+
+#: functions.php:104
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:105
+msgid "Top Header Menu"
+msgstr ""
+
+#: functions.php:106
+msgid "Footer Menu"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: search.php:23
+#. translators: %s: search query
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:27
+#. translators: %s: hyperlink
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:36
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:42
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:31 template-parts/content-single.php:37
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:32
+#. translators: %s: Name of current post.
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:35
+#. translators: %s: post title
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:39
+#. translators: 1: number of comments, 2: post title
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:1121
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2342
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2388
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""

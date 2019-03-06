@@ -1,0 +1,33 @@
+/*
+Theme Name: Newspaper Lite
+Description: Used to style Admin Notices
+*/
+
+.newspaper-lite-message {
+	overflow: hidden;
+	position: relative;
+	border-left-color: #2ea2cc !important;
+}
+
+.newspaper-lite-message a.button-primary,
+.newspaper-lite-message a.button-secondary {
+	text-decoration: none !important;
+}
+
+.newspaper-lite-message a.newspaper-lite-message-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 10px 15px 10px 21px;
+	font-size: 13px;
+	line-height: 1.23076923;
+	text-decoration: none;
+}
+
+.newspaper-lite-message a.newspaper-lite-message-close:before {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	-webkit-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
