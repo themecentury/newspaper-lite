@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */
@@ -23,9 +23,9 @@
 						<span class="copy-info"><?php echo esc_html( get_theme_mod( 'newspaper_lite_copyright_text', esc_html__( '2018 newspaper-lite', 'newspaper-lite' ) ) ); ?></span>
 						<span class="sep"> | </span>
 						<?php
-							$newspaper_lite_theme_author = esc_url( 'http://store.mirrorgrid.com/' );
+							$newspaper_lite_theme_author = esc_url( 'http://themecentury.com/' );
 						/* translators: %s: theme author */
-							printf( esc_html__( 'Newspaper Lite by %1$s.', 'newspaper-lite' ), '<a href="'.$newspaper_lite_theme_author.'" >Mirrorgrid Store</a>' );
+							printf( esc_html__( 'Newspaper Lite by %1$s.', 'newspaper-lite' ), '<a href="'.$newspaper_lite_theme_author.'" >themecentury</a>' );
 						?>
 					</div><!-- .site-info -->
 					<nav id="footer-navigation" class="sub-footer-navigation" >

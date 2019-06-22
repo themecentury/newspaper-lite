@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

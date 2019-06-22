@@ -4,7 +4,7 @@
  *
  * Widget show block posts in grid layout
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

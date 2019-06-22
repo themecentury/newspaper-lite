@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features.
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

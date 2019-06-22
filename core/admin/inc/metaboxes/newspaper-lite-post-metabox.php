@@ -2,7 +2,7 @@
 /**
  * Functions for rendering meta boxes in post area
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

@@ -4,7 +4,7 @@
  *
  * Newspaper Lite Carousel section
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

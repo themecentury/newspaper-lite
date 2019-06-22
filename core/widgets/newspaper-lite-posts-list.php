@@ -4,7 +4,7 @@
  *
  * Widget show latest or random posts in list view
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

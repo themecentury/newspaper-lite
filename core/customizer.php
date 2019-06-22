@@ -2,7 +2,7 @@
 /**
  * Newspaper Lite Theme Customizer.
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */
@@ -42,7 +42,10 @@ function newspaper_lite_related_articles_option_callback( $control ) {
 /**
  * Load customizer panels
  */
-require get_template_directory() . '/core/admin/inc/panels/general-panel.php'; //General settings panel
 require get_template_directory() . '/core/admin/inc/panels/header-panel.php'; //header settings panel
-require get_template_directory() . '/core/admin/inc/panels/design-panel.php'; //Design Settings panel
+require get_template_directory() . '/core/admin/inc/panels/template-panel.php'; //Template settings panel
+require get_template_directory() . '/core/admin/inc/panels/options-panel.php'; //Options settings panel
 require get_template_directory() . '/core/admin/inc/panels/additional-panel.php'; //Additional settings panel
+require get_template_directory() . '/core/admin/inc/panels/color-panel.php'; //Color settings panel
+require get_template_directory() . '/core/admin/inc/panels/footer-panel.php'; //Footer Settings panel
+

@@ -24,9 +24,14 @@ function newspaper_lite_register_required_plugins()
             'required' => false,
         ),
         array(
-            'name' => 'Mirrorgrid Demo Importer',
-            'slug' => 'mirrorgrid-demo-importer',
+            'name' => 'Century ToolKit',
+            'slug' => 'century-toolkit',
             'required' => false,
+        ),
+        array(
+            'name'      => esc_html__( 'Universal Google AdSense', 'newspaper-lite' ),
+            'slug'      => 'universal-google-adsense-and-ads-manager',
+            'required'  => false,
         ),
     );
 

@@ -134,17 +134,17 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 			</div>
 
 			<p class="newspaper-lite-actions">
-				<a href="<?php echo esc_url( 'https://store.mirrorgrid.com/demo/newspaper-lite/' ); ?>"
+				<a href="<?php echo esc_url( 'https://themecentury.com/demo/newspaper-lite/' ); ?>"
 				   class="button button-secondary" target="_blank"><?php esc_html_e( 'Theme Info', 'newspaper-lite' ); ?></a>
 
-				<a href="<?php echo esc_url( apply_filters( 'newspaper_lite_theme_url', 'https://store.mirrorgrid.com/demo/newspaper-lite/' ) ); ?>"
+				<a href="<?php echo esc_url( apply_filters( 'newspaper_lite_theme_url', 'https://themecentury.com/demo/newspaper-lite/' ) ); ?>"
 				   class="button button-secondary docs"
 				   target="_blank"><?php esc_html_e( 'View Demo', 'newspaper-lite' ); ?></a>
 
 				<a href="<?php echo esc_url( apply_filters( 'newspaper_lite_rate_url', 'https://wordpress.org/support/view/theme-reviews/newspaper-lite?filter=5#postform' ) ); ?>"
 				   class="button button-secondary docs"
 				   target="_blank"><?php esc_html_e( 'Rate this theme', 'newspaper-lite' ); ?></a>
-				<a href="<?php echo esc_url( apply_filters( 'newspaper_plus_theme_url', 'https://store.mirrorgrid.com/downloads/newspaper-plus-wordpress-theme/' ) ); ?>"
+				<a href="<?php echo esc_url( apply_filters( 'newspaper_plus_theme_url', 'https://themecentury.com/downloads/newspaper-plus-wordpress-theme/' ) ); ?>"
 				   class="button button-primary docs"
 				   target="_blank"><?php esc_html_e( 'View Pro Version', 'newspaper-lite' ); ?></a>
 			</p>
@@ -215,7 +215,7 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 						<div class="col">
 							<h3><?php esc_html_e( 'Documentation', 'newspaper-lite' ); ?></h3>
 							<p><?php esc_html_e( 'Please view our documentation page to setup the theme.', 'newspaper-lite' ) ?></p>
-							<p><a href="<?php echo esc_url( 'https://store.mirrorgrid.com/docs/newspaper-lite/' ); ?>"
+							<p><a href="<?php echo esc_url( 'https://themecentury.com/docs/newspaper-lite/' ); ?>"
 							      class="button button-secondary"><?php esc_html_e( 'Documentation', 'newspaper-lite' ); ?></a>
 							</p>
 						</div>
@@ -223,14 +223,14 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 						<div class="col">
 							<h3><?php esc_html_e( 'Got theme support question?', 'newspaper-lite' ); ?></h3>
 							<p><?php esc_html_e( 'Please put it in our dedicated support forum.', 'newspaper-lite' ) ?></p>
-							<p><a href="<?php echo esc_url( 'https://store.mirrorgrid.com/support/' ); ?>"
+							<p><a href="<?php echo esc_url( 'https://themecentury.com/support/' ); ?>"
 							      class="button button-secondary"><?php esc_html_e( 'Support', 'newspaper-lite' ); ?></a></p>
 						</div>
 
 						<div class="col">
 							<h3><?php esc_html_e( 'Any question about this theme or us?', 'newspaper-lite' ); ?></h3>
 							<p><?php esc_html_e( 'Please send it via our sales contact page.', 'newspaper-lite' ) ?></p>
-							<p><a href="<?php echo esc_url( 'https://store.mirrorgrid.com/contact-us/' ); ?>"
+							<p><a href="<?php echo esc_url( 'https://themecentury.com/contact-us/' ); ?>"
 							      class="button button-secondary"><?php esc_html_e( 'Contact Page', 'newspaper-lite' ); ?></a>
 							</p>
 						</div>
@@ -472,7 +472,7 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 						<td></td>
 						<td></td>
 						<td class="btn-wrapper">
-							<a href="<?php echo esc_url( apply_filters( 'newspaper_pro_theme_url', 'https://store.mirrorgrid.com/downloads/newspaper-plus-wordpress-theme/' ) ); ?>"
+							<a href="<?php echo esc_url( apply_filters( 'newspaper_pro_theme_url', 'https://themecentury.com/downloads/newspaper-plus-wordpress-theme/' ) ); ?>"
 							   class="button button-secondary docs"
 							   target="_blank"><?php esc_html_e( 'View Pro', 'newspaper-lite' ); ?></a>
 						</td>
@@ -525,11 +525,11 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 				<ol>
 					<li><a href="<?php echo esc_url( 'https://wordpress.org/plugins/social-icons/' ); ?>"
 					       target="_blank"><?php esc_html_e( 'Social Icons', 'newspaper-lite' ); ?></a>
-						<?php esc_html_e( ' by Mirrorgrid Store', 'newspaper-lite' ); ?>
+						<?php esc_html_e( ' by themecentury', 'newspaper-lite' ); ?>
 					</li>
 					<li><a href="<?php echo esc_url( 'https://wordpress.org/plugins/easy-social-sharing/' ); ?>"
 					       target="_blank"><?php esc_html_e( 'Easy Social Sharing', 'newspaper-lite' ); ?></a>
-						<?php esc_html_e( ' by Mirrorgrid Store', 'newspaper-lite' ); ?>
+						<?php esc_html_e( ' by themecentury', 'newspaper-lite' ); ?>
 					</li>
 					<li><a href="<?php echo esc_url( 'https://wordpress.org/plugins/contact-form-7/' ); ?>"
 					       target="_blank"><?php esc_html_e( 'Contact Form 7', 'newspaper-lite' ); ?></a></li>

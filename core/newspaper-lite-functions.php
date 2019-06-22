@@ -2,7 +2,7 @@
 /**
  *  Define extra or custom functions
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

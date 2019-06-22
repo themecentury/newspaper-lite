@@ -7,7 +7,9 @@ module.exports = function (grunt) {
         // Setting folder templates.
         dirs: {
             js: 'assets/js',
-            css: 'assets/css'
+            css: 'assets/css',
+            scss: 'assets/scss',
+            img: 'assets/img',
         },
 
         // JavaScript linting with JSHint.
@@ -16,7 +18,7 @@ module.exports = function (grunt) {
                 jshintrc: '.jshintrc'
             },
             all: [
-                'Gruntfile.js',
+                '!Gruntfile.js',
                 '<%= dirs.js %>/*.js',
                 '!<%= dirs.js %>/*.min.js',
                 '<%= dirs.js %>/*.js',
@@ -30,7 +32,7 @@ module.exports = function (grunt) {
                 stylelintrc: '.stylelintrc'
             },
             all: [
-                '<%= dirs.css %>/*.scss'
+                '<%= dirs.scss %>/*.scss'
             ]
         },
 
@@ -39,11 +41,14 @@ module.exports = function (grunt) {
             options: {
                 ie8: true,
                 parse: {
-                    strict: false
+                    strict: false,
                 },
                 output: {
                     comments: /@license|@preserve|^!/
-                }
+                },
+                mangle:{
+                    properties: false,
+                },
             },
             assets: {
                 files: [{
@@ -55,29 +60,25 @@ module.exports = function (grunt) {
                     ],
                     dest: '<%= dirs.js %>/',
                     ext: '.min.js'
-                }]
+                }],
             },
-            vendor: {
-                files: {
-                    '<%= dirs.js %>/jquery-blockui/jquery.jquery.blockUI.min.js': ['<%= dirs.js %>/jquery-blockui/jquery.jquery.blockUI.js'],
-                    '<%= dirs.js %>/jquery-tiptip/jquery.tipTip.min.js': ['<%= dirs.js %>/jquery-tiptip/jquery.tipTip.js'],
-                    '<%= dirs.js %>/select2/select2.min.js': ['<%= dirs.js %>/select2/select2.js']
-                }
-            }
         },
 
         // Compile all .scss files.
         sass: {
             options: {
-                sourceMap: true
+                sourceMap: true,
+                check:false,
+                unix_newlines: true,
+                sourceMapFileInline: true,
             },
-            compile: {
+            dist: {
                 files: [{
                     expand: true,
-                    cwd: '<%= dirs.css %>/',
-                    src: ['*.scss'],
+                    cwd: '<%= dirs.scss %>/',
+                    src: ['*.scss', '!*.css'],
                     dest: '<%= dirs.css %>/',
-                    ext: '.css'
+                    ext: '.css',
                 }]
             }
         },
@@ -85,26 +86,30 @@ module.exports = function (grunt) {
         // Generate all RTL .css files
         rtlcss: {
             generate: {
+                options: {
+                    map:false,
+                    //map: {inline:false},
+                },
                 expand: true,
                 cwd: '<%= dirs.css %>',
-                src: [
-                    '*.css',
-                    '!select2.css',
-                    '!*-rtl.css'
-                ],
+                src: ['*.min.css', '!*.min-rtl.css'],
                 dest: '<%= dirs.css %>/',
-                ext: '-rtl.css'
+                ext: '.min-rtl.css'
             }
         },
 
         // Minify all .css files.
         cssmin: {
+            options: {
+                sourceMap: false,
+                sourceMapFileInline: false,
+            },
             minify: {
                 expand: true,
                 cwd: '<%= dirs.css %>/',
-                src: ['*.css'],
+                src: ['*.css', '!*.min.css'],
                 dest: '<%= dirs.css %>/',
-                ext: '.css'
+                ext: '.min.css'
             }
         },
 
@@ -118,39 +123,45 @@ module.exports = function (grunt) {
         // Watch changes for assets.
         watch: {
             css: {
+                options: {
+                    sourceMap: true,
+                    sourceMapFileInline: true,
+                },
                 files: [
-                    '<%= dirs.css %>/*.scss',
-                    '<%= dirs.css %>/**/*.scss'
+                    '<%= dirs.scss %>/*.scss',
+                    '<%= dirs.scss %>/**/*.scss'
 
                 ],
-                // tasks: ['sass', 'rtlcss', 'cssmin', 'concat']
-                tasks: ['sass']
-            }
-            /*js: {
+                tasks: ['sass', 'postcss', 'cssmin', /*'rtlcss'*/],
+            },
+            js: {
                 files: [
-                    '<%= dirs.js %>/!*js',
-                    '!<%= dirs.js %>/!*.min.js'
+                    '<%= dirs.js %>/*.js',
+                    '<%= dirs.js %>/!*.min.js'
                 ],
-                tasks: ['jshint', 'uglify']
-            }*/
+                tasks: [/*'jshint',*/ 'uglify']
+            }
         },
 
         // Generate POT files.
         makepot: {
             options: {
-                type: 'wp-plugin',
+                type: 'wp-themes',
                 domainPath: 'languages/',
                 potHeaders: {
-                    'report-msgid-bugs-to': 'mirrorgridofficial@gmail.com',
-                    'language-team': 'LANGUAGE <EMAIL@ADDRESS>'
-                }
+                    'report-msgid-bugs-to': 'themecentury@gmail.com',
+                    'language-team': 'LANGUAGE <themecentury@gmail.com>',
+                },
+                //updatePoFiles: true,
+                
             },
             dist: {
                 options: {
                     potFilename: 'newspaper-lite.pot',
                     exclude: [
                         'vendor/.*'
-                    ]
+                    ],
+                    
                 }
             }
         },
@@ -204,6 +215,7 @@ module.exports = function (grunt) {
         // Autoprefixer.
         postcss: {
             options: {
+                map: true,
                 processors: [
                     require('autoprefixer')({
                         browsers: [
@@ -241,15 +253,37 @@ module.exports = function (grunt) {
                     '!vendor/**',
                     '!Gruntfile.js',
                     '!package.json',
-                    '!composer.json',
+                    '!package.json',
+                    '!assets/scss/**',
+                    '!composer-lock.json',
                     '!composer.lock',
                     '!node_modules/**',
-                    '!phpcs.ruleset.xml'
+                    '!phpcs.ruleset.xml',
+                    '!demo-content/**',
+                    '!*.gitignore',
                 ],
                 dest: 'newspaper-lite',
                 expand: true
             }
-        }
+        },
+        browserSync:{
+            dev:{
+                bsFiles:{
+                    src:[
+                        'assets/css/*.css',
+                    ],
+                },
+                options: {
+                    //watchTask: ['sass', 'postcss', 'cssmin'],
+                    /*server:{
+                        baseDir: "./assets/css",
+                    },*/
+                    port: 4000,
+                    watchTask: true,
+                    proxy: "localhost/themecentury/themes/newspaper-lite",
+                },
+            },
+        },
     });
 
     // Load NPM tasks to be used here
@@ -266,27 +300,29 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-compress');
-
+    grunt.loadNpmTasks('grunt-browser-sync');
 
     // Register tasks
     grunt.registerTask('default', [
-        'jshint',
-        'uglify',
-        'css'
+        'browserSync',
+        'watch',
+        //'jshint',
+        //'uglify',
+        //'css'
     ]);
 
     grunt.registerTask('js', [
-        'jshint',
+        //'jshint',
         'uglify:assets'
 
     ]);
 
     grunt.registerTask('css', [
         'sass',
-        'rtlcss',
         'postcss',
-       'cssmin',
-        'concat'
+        'cssmin',
+        /*'rtlcss',*/
+        //'concat'
     ]);
 
     grunt.registerTask('dev', [
@@ -295,9 +331,10 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('zip', [
-        'dev',
+        //'dev',
         'compress'
     ]);
+
     /*grunt.registerTask('watch', [
         'watch',
     ]);*/

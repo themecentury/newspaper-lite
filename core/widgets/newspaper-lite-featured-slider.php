@@ -4,7 +4,7 @@
  *
  * Homepage slider section with featured section
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

@@ -1,30 +1,34 @@
 <?php
 /**
- * Customizer option for Design Settings
+ * Customizer settings for Templates settings purpose
  *
- * @package Mirrorgrid Store
+ * @package Themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */
 
-add_action( 'customize_register', 'newspaper_lite_design_settings_register' );
+add_action( 'customize_register', 'newspaper_lite_template_settings_register' );
 
-function newspaper_lite_design_settings_register( $wp_customize ) {
+function newspaper_lite_template_settings_register( $wp_customize ) {
 
 	/**
-	 * Add Design Panel
+	 * Add Template Panel
 	 */
 	$wp_customize->add_panel(
-		'newspaper_lite_design_settings_panel',
+		'newspaper_lite_templates_settings_panel',
 		array(
-			'priority'       => 6,
+			'priority'       => 30,
 			'capability'     => 'edit_theme_options',
 			'theme_supports' => '',
-			'title'          => esc_html__( 'Design Settings', 'newspaper-lite' ),
+			'title'          => esc_html__( 'Template Options', 'newspaper-lite' ),
 		)
 	);
 
+	$wp_customize->get_section( 'static_front_page' )->panel        = 'newspaper_lite_templates_settings_panel';
+	$wp_customize->get_section( 'static_front_page' )->priority     = '10';
+
 	/*--------------------------------------------------------------------------------*/
+
 	/**
 	 * Archive page Settings
 	 */
@@ -32,8 +36,8 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 		'newspaper_lite_archive_section',
 		array(
 			'title'    => esc_html__( 'Archive Settings', 'newspaper-lite' ),
-			'priority' => 10,
-			'panel'    => 'newspaper_lite_design_settings_panel'
+			'priority' => 20,
+			'panel'    => 'newspaper_lite_templates_settings_panel'
 		)
 	);
 
@@ -55,7 +59,7 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 				'label'       => esc_html__( 'Available Sidebars', 'newspaper-lite' ),
 				'description' => esc_html__( 'Select sidebar for whole site archives, categories, search page etc.', 'newspaper-lite' ),
 				'section'     => 'newspaper_lite_archive_section',
-				'priority'    => 4,
+				'priority'    => 10,
 				'choices'     => array(
 					'right_sidebar'     => get_template_directory_uri() . '/core/admin/assets/images/right-sidebar.png',
 					'left_sidebar'      => get_template_directory_uri() . '/core/admin/assets/images/left-sidebar.png',
@@ -85,7 +89,7 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 				'classic' => esc_html__( 'Classic Layout', 'newspaper-lite' ),
 				'columns' => esc_html__( 'Columns Layout', 'newspaper-lite' )
 			),
-			'priority'    => 5
+			'priority'    => 20
 		)
 	);
 
@@ -97,8 +101,8 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 		'newspaper_lite_single_post_section',
 		array(
 			'title'    => esc_html__( 'Post Settings', 'newspaper-lite' ),
-			'priority' => 15,
-			'panel'    => 'newspaper_lite_design_settings_panel'
+			'priority' => 30,
+			'panel'    => 'newspaper_lite_templates_settings_panel'
 		)
 	);
 
@@ -120,7 +124,7 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 				'label'       => esc_html__( 'Available Sidebars', 'newspaper-lite' ),
 				'description' => esc_html__( 'Select sidebar for whole single post page.', 'newspaper-lite' ),
 				'section'     => 'newspaper_lite_single_post_section',
-				'priority'    => 4,
+				'priority'    => 10,
 				'choices'     => array(
 					'right_sidebar'     => get_template_directory_uri() . '/core/admin/assets/images/right-sidebar.png',
 					'left_sidebar'      => get_template_directory_uri() . '/core/admin/assets/images/left-sidebar.png',
@@ -147,7 +151,7 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 				'type'        => 'switch',
 				'label'       => esc_html__( 'Author Option', 'newspaper-lite' ),
 				'description' => esc_html__( 'Enable/disable author information at single post page.', 'newspaper-lite' ),
-				'priority'    => 5,
+				'priority'    => 20,
 				'section'     => 'newspaper_lite_single_post_section',
 				'choices'     => array(
 					'show' => esc_html__( 'Show', 'newspaper-lite' ),
@@ -173,7 +177,7 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 				'type'        => 'switch',
 				'label'       => esc_html__( 'Related Articles Option', 'newspaper-lite' ),
 				'description' => esc_html__( 'Enable/disable related articles section at single post page.', 'newspaper-lite' ),
-				'priority'    => 7,
+				'priority'    => 30,
 				'section'     => 'newspaper_lite_single_post_section',
 				'choices'     => array(
 					'enable'  => esc_html__( 'Enable', 'newspaper-lite' ),
@@ -182,6 +186,8 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 			)
 		)
 	);
+
+
 
 	//Related articles section title
 	$wp_customize->add_setting(
@@ -228,6 +234,7 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 		)
 	);
 	/*--------------------------------------------------------------------------------*/
+
 	/**
 	 * Single page Settings
 	 */
@@ -235,8 +242,8 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 		'newspaper_lite_single_page_section',
 		array(
 			'title'    => esc_html__( 'Page Settings', 'newspaper-lite' ),
-			'priority' => 20,
-			'panel'    => 'newspaper_lite_design_settings_panel'
+			'priority' => 40,
+			'panel'    => 'newspaper_lite_templates_settings_panel'
 		)
 	);
 
@@ -268,149 +275,4 @@ function newspaper_lite_design_settings_register( $wp_customize ) {
 			)
 		)
 	);
-
-	/*--------------------------------------------------------------------------------------------------------*/
-	/**
-	 * Footer widget area
-	 */
-	$wp_customize->add_section(
-		'newspaper_lite_footer_widget_section',
-		array(
-			'title'    => esc_html__( 'Footer Settings', 'newspaper-lite' ),
-			'priority' => 25,
-			'panel'    => 'newspaper_lite_design_settings_panel'
-		)
-	);
-	// Footer widget area
-	$wp_customize->add_setting(
-		'footer_widget_option',
-		array(
-			'default'           => 'column3',
-			'sanitize_callback' => 'newspaper_lite_footer_widget_sanitize',
-		)
-	);
-	$wp_customize->add_control(
-		'footer_widget_option',
-		array(
-			'type'        => 'radio',
-			'priority'    => 4,
-			'label'       => esc_html__( 'Footer Widget Area', 'newspaper-lite' ),
-			'description' => esc_html__( 'Choose option to display number of columns in footer area.', 'newspaper-lite' ),
-			'section'     => 'newspaper_lite_footer_widget_section',
-			'choices'     => array(
-				'column1' => esc_html__( 'One Column', 'newspaper-lite' ),
-				'column2' => esc_html__( 'Two Columns', 'newspaper-lite' ),
-				'column3' => esc_html__( 'Three Columns', 'newspaper-lite' ),
-				'column4' => esc_html__( 'Four Columns', 'newspaper-lite' ),
-			),
-		)
-	);
-
-	//Copyright text
-	$wp_customize->add_setting(
-		'newspaper_lite_copyright_text',
-		array(
-			'default'           => esc_html__( '2018 newspaper-lite', 'newspaper-lite' ),
-			'capability'        => 'edit_theme_options',
-			'transport'         => 'postMessage',
-			'sanitize_callback' => 'newspaper_lite_sanitize_text',
-		)
-	);
-	$wp_customize->add_control(
-		'newspaper_lite_copyright_text',
-		array(
-			'type'     => 'text',
-			'label'    => esc_html__( 'Copyright Info', 'newspaper-lite' ),
-			'section'  => 'newspaper_lite_footer_widget_section',
-			'priority' => 5
-		)
-	);
-
-	//Website Skin
-	$wp_customize->add_section(
-		'newspaper_lite_website_skin_section',
-		array(
-			'title'    => esc_html__( 'Website Skin', 'newspaper-lite' ),
-			'priority' => 26,
-			'panel'    => 'newspaper_lite_design_settings_panel'
-		)
-	);
-	// Website Skin Setting
-	$wp_customize->add_setting(
-		'website_skin_option',
-		array(
-			'default'           => 'default_skin',
-			'sanitize_callback' => 'newspaper_lite_website_skin_sanitize',
-		)
-	);
-	$wp_customize->add_control(
-		'website_skin_option',
-		array(
-			'type'        => 'radio',
-			'priority'    => 4,
-			'label'       => esc_html__( 'Choose Website Skin', 'newspaper-lite' ),
-			'description' => esc_html__( 'Choose the  skin color for your site.', 'newspaper-lite' ),
-			'section'     => 'newspaper_lite_website_skin_section',
-			'choices'     => array(
-				'default_skin'   => esc_html__( 'Default', 'newspaper-lite' ),
-				'dark_skin' => esc_html__( 'Dark Skin', 'newspaper-lite' ),
-			),
-		)
-	);
-    /* --------------------------------------------------------------------------------------------------------------- */
-    /**
-     * Title Style
-     */
-    $wp_customize->add_section(
-        'newspaper_lite_site_title_design', array(
-            'title'       => __( 'Title Style', 'newspaper-lite' ),
-            'description' => __( 'Design option of title style', 'newspaper-lite'),
-            'priority'    => 26,
-            'panel'       => 'newspaper_lite_design_settings_panel',
-        )
-    );
-    $wp_customize->add_setting(
-        'site_title_design_options', array(
-            'default'           => 'plain',
-            'sanitize_callback' => 'newspaper_lite_sanitize_title_design',
-        )
-    );
-    $wp_customize->add_control(
-        'site_title_design_options', array(
-            'type'     => 'radio',
-            'priority' => 10,
-            'label'    => __( 'Title design styles', 'newspaper-lite' ),
-            'section'  => 'newspaper_lite_site_title_design',
-            'choices'  => newspaper_lite_site_title_design(),
-        )
-    );
-
-    // Title case design
-    /**
-     */
-    $wp_customize->add_section(
-        'newspaper_lite_site_title_case_design', array(
-            'title'       => __( 'Title font case', 'newspaper-lite' ),
-            'description' => __( 'Design of font case style', 'newspaper-lite'),
-            'priority'    => 27,
-            'panel'       => 'newspaper_lite_design_settings_panel',
-        )
-    );
-    $wp_customize->add_setting(
-        'site_title_case_design_options', array(
-            'default'           => 'default',
-            'sanitize_callback' => 'newspaper_lite_sanitize_title_case_design',
-        )
-    );
-    $wp_customize->add_control(
-        'site_title_case_design_options', array(
-            'type'     => 'radio',
-            'priority' => 10,
-            'label'    => __( 'Title font case styles', 'newspaper-lite' ),
-            'section'  => 'newspaper_lite_site_title_design',
-            'choices'  => newspaper_lite_site_title_design_case(),
-        )
-    );
-
-
 }

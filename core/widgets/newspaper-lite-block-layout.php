@@ -4,7 +4,7 @@
  *
  * Widget shows the posts in style 1
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.me/
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */

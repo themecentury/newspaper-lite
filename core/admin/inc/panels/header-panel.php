@@ -2,7 +2,7 @@
 /**
  * Customizer option for Header sections
  *
- * @package Mirrorgrid Store
+ * @package themecentury
  * @subpackage Newspaper Lite
  * @since 1.0.0
  */
@@ -17,7 +17,7 @@ function newspaper_lite_header_settings_register($wp_customize)
     $wp_customize->add_panel(
         'newspaper_lite_header_settings_panel',
         array(
-            'priority' => 4,
+            'priority' => 20,
             'capability' => 'edit_theme_options',
             'theme_supports' => '',
             'title' => esc_html__('Header Settings', 'newspaper-lite'),
@@ -31,7 +31,7 @@ function newspaper_lite_header_settings_register($wp_customize)
         'newspaper_lite_top_header_section',
         array(
             'title' => esc_html__('Top Header Section', 'newspaper-lite'),
-            'priority' => 5,
+            'priority' => 10,
             'panel' => 'newspaper_lite_header_settings_panel'
         )
     );
@@ -53,7 +53,7 @@ function newspaper_lite_header_settings_register($wp_customize)
                 'type' => 'switch',
                 'label' => esc_html__('News Ticker Option', 'newspaper-lite'),
                 'description' => esc_html__('Enable/disable news ticker at header.', 'newspaper-lite'),
-                'priority' => 1,
+                'priority' => 10,
                 'section' => 'newspaper_lite_top_header_section',
                 'choices' => array(
                     'enable' => esc_html__('Enable', 'newspaper-lite'),
@@ -80,7 +80,7 @@ function newspaper_lite_header_settings_register($wp_customize)
             'type' => 'text',
             'label' => esc_html__('News Ticker Caption', 'newspaper-lite'),
             'section' => 'newspaper_lite_top_header_section',
-            'priority' => 2
+            'priority' => 20
         )
     );
     // Show ticker in all page or only front page /*
@@ -100,7 +100,7 @@ function newspaper_lite_header_settings_register($wp_customize)
                 'type' => 'switch',
                 'label' => esc_html__('Show on all page', 'newspaper-lite'),
                 'description' => esc_html__('Select yes, if you want to show ticker on all page.', 'newspaper-lite'),
-                'priority' => 3,
+                'priority' => 30,
                 'section' => 'newspaper_lite_top_header_section',
                 'choices' => array(
                     'yes' => esc_html__('Yes', 'newspaper-lite'),
@@ -127,7 +127,7 @@ function newspaper_lite_header_settings_register($wp_customize)
                 'type' => 'switch',
                 'label' => esc_html__('Current Date Option', 'newspaper-lite'),
                 'description' => esc_html__('Enable/disable current date from top header.', 'newspaper-lite'),
-                'priority' => 4,
+                'priority' => 40,
                 'section' => 'newspaper_lite_top_header_section',
                 'choices' => array(
                     'enable' => esc_html__('Enable', 'newspaper-lite'),
@@ -157,7 +157,7 @@ function newspaper_lite_header_settings_register($wp_customize)
                 'l, Y, F d' => esc_html__( 'Format 2 (dd,yy,mm)', 'newspaper-lite' ),
                 'Y, F d, l' => esc_html__( 'Format 3 (yy,mm,dd)', 'newspaper-lite' ),
             ),
-            'priority'    => 4
+            'priority'    => 50
         )
     );
 
@@ -179,7 +179,7 @@ function newspaper_lite_header_settings_register($wp_customize)
                 'type' => 'switch',
                 'label' => esc_html__('Social Icon Option', 'newspaper-lite'),
                 'description' => esc_html__('Enable/disable social icons from top header (right).', 'newspaper-lite'),
-                'priority' => 5,
+                'priority' => 60,
                 'section' => 'newspaper_lite_top_header_section',
                 'choices' => array(
                     'enable' => esc_html__('Enable', 'newspaper-lite'),
@@ -188,15 +188,21 @@ function newspaper_lite_header_settings_register($wp_customize)
             )
         )
     );
+
     /*----------------------------------------------------------------------------------------------------*/
+
+    $wp_customize->get_section( 'title_tagline' )->panel        = 'newspaper_lite_header_settings_panel';
+    $wp_customize->get_section( 'title_tagline' )->priority     = '20';
+
+    
     /**
-     * Sticky Header
+     * Main Navigation Header
      */
     $wp_customize->add_section(
-        'newspaper_lite_sticky_header_section',
+        'newspaper_lite_navigation_header_section',
         array(
-            'title' => esc_html__('Sticky Menu', 'newspaper-lite'),
-            'priority' => 10,
+            'title' => esc_html__('Main Navigation', 'newspaper-lite'),
+            'priority' => 30,
             'panel' => 'newspaper_lite_header_settings_panel'
         )
     );
@@ -217,8 +223,8 @@ function newspaper_lite_header_settings_register($wp_customize)
                 'type' => 'switch',
                 'label' => esc_html__('Menu Sticky', 'newspaper-lite'),
                 'description' => esc_html__('Enable/disable option for Menu Sticky', 'newspaper-lite'),
-                'priority' => 4,
-                'section' => 'newspaper_lite_sticky_header_section',
+                'priority' => 10,
+                'section' => 'newspaper_lite_navigation_header_section',
                 'choices' => array(
                     'enable' => esc_html__('Enable', 'newspaper-lite'),
                     'disable' => esc_html__('Disable', 'newspaper-lite')
@@ -235,7 +241,7 @@ function newspaper_lite_header_settings_register($wp_customize)
         'newspaper_lite_banner_ads_section',
         array(
             'title' => esc_html__('Banner Ads Section', 'newspaper-lite'),
-            'priority' => 11,
+            'priority' => 30,
             'panel' => 'newspaper_lite_header_settings_panel'
         )
     );
@@ -256,7 +262,7 @@ function newspaper_lite_header_settings_register($wp_customize)
                 'type' => 'switch',
                 'label' => esc_html__('Google Ads', 'newspaper-lite'),
                 'description' => esc_html__('Enable/disable responsive google ad (adsence) on banner. Please enable only if you want to show responsive google ad on banner ads section.', 'newspaper-lite'),
-                'priority' => 4,
+                'priority' => 10,
                 'section' => 'newspaper_lite_banner_ads_section',
                 'choices' => array(
                     'enable' => esc_html__('Enable', 'newspaper-lite'),
@@ -267,4 +273,8 @@ function newspaper_lite_header_settings_register($wp_customize)
     );
 
     /*----------------------------------------------------------------------------------------------------*/
+
+    $wp_customize->get_section( 'header_image' )->panel     = 'newspaper_lite_header_settings_panel';
+    $wp_customize->get_section( 'header_image' )->priority  = '40';
+
 }
