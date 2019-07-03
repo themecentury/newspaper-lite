@@ -23,16 +23,22 @@ function newspaper_lite_header_settings_register($wp_customize)
             'title' => esc_html__('Header Settings', 'newspaper-lite'),
         )
     );
+
+    /*----------------------------------------------------------------------------------------------------*/
+
+    $wp_customize->get_section( 'header_image' )->panel     = 'newspaper_lite_header_settings_panel';
+    $wp_customize->get_section( 'header_image' )->priority  = '10';
+
     /*----------------------------------------------------------------------------------------------------*/
     /**
      * Top Header Section
      */
     $wp_customize->add_section(
-        'newspaper_lite_top_header_section',
+        'newspaper_lite_ticker_header_section',
         array(
-            'title' => esc_html__('Top Header Section', 'newspaper-lite'),
-            'priority' => 10,
-            'panel' => 'newspaper_lite_header_settings_panel'
+            'title'    => esc_html__( 'Ticker Options', 'newspaper-lite' ),
+            'priority' => 20,
+            'panel'    => 'newspaper_lite_header_settings_panel'
         )
     );
 
@@ -54,7 +60,7 @@ function newspaper_lite_header_settings_register($wp_customize)
                 'label' => esc_html__('News Ticker Option', 'newspaper-lite'),
                 'description' => esc_html__('Enable/disable news ticker at header.', 'newspaper-lite'),
                 'priority' => 10,
-                'section' => 'newspaper_lite_top_header_section',
+                'section' => 'newspaper_lite_ticker_header_section',
                 'choices' => array(
                     'enable' => esc_html__('Enable', 'newspaper-lite'),
                     'disable' => esc_html__('Disable', 'newspaper-lite')
@@ -79,7 +85,7 @@ function newspaper_lite_header_settings_register($wp_customize)
         array(
             'type' => 'text',
             'label' => esc_html__('News Ticker Caption', 'newspaper-lite'),
-            'section' => 'newspaper_lite_top_header_section',
+            'section' => 'newspaper_lite_ticker_header_section',
             'priority' => 20
         )
     );
@@ -101,7 +107,7 @@ function newspaper_lite_header_settings_register($wp_customize)
                 'label' => esc_html__('Show on all page', 'newspaper-lite'),
                 'description' => esc_html__('Select yes, if you want to show ticker on all page.', 'newspaper-lite'),
                 'priority' => 30,
-                'section' => 'newspaper_lite_top_header_section',
+                'section' => 'newspaper_lite_ticker_header_section',
                 'choices' => array(
                     'yes' => esc_html__('Yes', 'newspaper-lite'),
                     'no' => esc_html__('No', 'newspaper-lite')
@@ -110,6 +116,20 @@ function newspaper_lite_header_settings_register($wp_customize)
         )
     );
 
+    /*----------------------------------------------------------------------------------------------------*/
+    /**
+     * Top Header Section
+     */
+    $wp_customize->add_section(
+        'newspaper_lite_top_header_section',
+        array(
+            'title' => esc_html__('Top Header Section', 'newspaper-lite'),
+            'priority' => 30,
+            'panel' => 'newspaper_lite_header_settings_panel'
+        )
+    );
+
+    
     // Display Current Date
     $wp_customize->add_setting(
         'newspaper_lite_header_date',
@@ -192,8 +212,9 @@ function newspaper_lite_header_settings_register($wp_customize)
     /*----------------------------------------------------------------------------------------------------*/
 
     $wp_customize->get_section( 'title_tagline' )->panel        = 'newspaper_lite_header_settings_panel';
-    $wp_customize->get_section( 'title_tagline' )->priority     = '20';
+    $wp_customize->get_section( 'title_tagline' )->priority     = '40';
 
+    /*----------------------------------------------------------------------------------------------------*/
     
     /**
      * Main Navigation Header
@@ -202,7 +223,7 @@ function newspaper_lite_header_settings_register($wp_customize)
         'newspaper_lite_navigation_header_section',
         array(
             'title' => esc_html__('Main Navigation', 'newspaper-lite'),
-            'priority' => 30,
+            'priority' => 50,
             'panel' => 'newspaper_lite_header_settings_panel'
         )
     );
@@ -233,7 +254,7 @@ function newspaper_lite_header_settings_register($wp_customize)
         )
     );
 
-    //
+    /*----------------------------------------------------------------------------------------------------*/
     /**
      * Banner Ad settings
      */
@@ -241,7 +262,7 @@ function newspaper_lite_header_settings_register($wp_customize)
         'newspaper_lite_banner_ads_section',
         array(
             'title' => esc_html__('Banner Ads Section', 'newspaper-lite'),
-            'priority' => 30,
+            'priority' => 60,
             'panel' => 'newspaper_lite_header_settings_panel'
         )
     );
@@ -273,8 +294,5 @@ function newspaper_lite_header_settings_register($wp_customize)
     );
 
     /*----------------------------------------------------------------------------------------------------*/
-
-    $wp_customize->get_section( 'header_image' )->panel     = 'newspaper_lite_header_settings_panel';
-    $wp_customize->get_section( 'header_image' )->priority  = '40';
 
 }

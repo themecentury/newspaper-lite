@@ -3,7 +3,7 @@
  * Customizer settings for General purpose
  *
  * @package Themecentury
- * @subpackage Newspaper Plus
+ * @subpackage Newspaper Lite
  * @since 1.0.0
  */
 
@@ -20,13 +20,13 @@ function newspaper_lite_general_settings_register( $wp_customize ) {
 			'priority'       => 60,
 			'capability'     => 'edit_theme_options',
 			'theme_supports' => '',
-			'title'          => esc_html__( 'Color Settings', 'newspaper-plus' ),
+			'title'          => esc_html__( 'Color Settings', 'newspaper-lite' ),
 		)
 	);
 
 	$wp_customize->get_section( 'colors' )->panel               = 'newspaper_lite_color_settings_panel';
 	$wp_customize->get_section( 'colors' )->priority            = '10';
-	$wp_customize->get_section( 'colors' )->title 				= esc_html__( 'Global Color', 'newspaper-plus' );
+	$wp_customize->get_section( 'colors' )->title 				= esc_html__( 'Global Color', 'newspaper-lite' );
 	
 	/*---------------------------------------------------------------------------------------------------------------*/
 

@@ -24,17 +24,20 @@ function newspaper_lite_footer_settings_register( $wp_customize ) {
 		)
 	);
 
+	/*----------------------------------------------------------------------------------------------------*/
+
 	/**
-	 * Footer widget area
+	 * Top Footer widget area
 	 */
 	$wp_customize->add_section(
-		'newspaper_lite_footer_widget_section',
+		'newspaper_lite_top_footer_widget_section',
 		array(
-			'title'    => esc_html__( 'Footer Settings', 'newspaper-lite' ),
+			'title'    => esc_html__( 'Top Footer Settings', 'newspaper-lite' ),
 			'priority' => 10,
 			'panel'    => 'newspaper_lite_footer_settings_panel'
 		)
 	);
+
 	// Footer widget area
 	$wp_customize->add_setting(
 		'footer_widget_option',
@@ -47,10 +50,10 @@ function newspaper_lite_footer_settings_register( $wp_customize ) {
 		'footer_widget_option',
 		array(
 			'type'        => 'radio',
-			'priority'    => 4,
-			'label'       => esc_html__( 'Footer Widget Area', 'newspaper-lite' ),
-			'description' => esc_html__( 'Choose option to display number of columns in footer area.', 'newspaper-lite' ),
-			'section'     => 'newspaper_lite_footer_widget_section',
+			'priority'    => 10,
+			'label'       => esc_html__( 'Top Footer Widget Area', 'newspaper-lite' ),
+			'description' => esc_html__( 'Choose option to display number of columns in top footer area.', 'newspaper-lite' ),
+			'section'     => 'newspaper_lite_top_footer_widget_section',
 			'choices'     => array(
 				'column1' => esc_html__( 'One Column', 'newspaper-lite' ),
 				'column2' => esc_html__( 'Two Columns', 'newspaper-lite' ),
@@ -59,6 +62,21 @@ function newspaper_lite_footer_settings_register( $wp_customize ) {
 			),
 		)
 	);
+
+	/*----------------------------------------------------------------------------------------------------*/
+
+	/**
+	 * Footer widget area
+	 */
+	$wp_customize->add_section(
+		'newspaper_lite_bottom_footer_widget_section',
+		array(
+			'title'    => esc_html__( 'Bottom Footer Settings', 'newspaper-lite' ),
+			'priority' => 30,
+			'panel'    => 'newspaper_lite_footer_settings_panel'
+		)
+	);
+	
 
 	//Copyright text
 	$wp_customize->add_setting(
@@ -75,10 +93,11 @@ function newspaper_lite_footer_settings_register( $wp_customize ) {
 		array(
 			'type'     => 'text',
 			'label'    => esc_html__( 'Copyright Info', 'newspaper-lite' ),
-			'section'  => 'newspaper_lite_footer_widget_section',
-			'priority' => 5
+			'section'  => 'newspaper_lite_bottom_footer_widget_section',
+			'priority' => 10
 		)
 	);
 
+	/*----------------------------------------------------------------------------------------------------*/
 
 }

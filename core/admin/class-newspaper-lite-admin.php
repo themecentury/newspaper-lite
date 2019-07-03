@@ -2,7 +2,7 @@
 /**
  * Newspaper_Lite Admin Class.
  *
- * @author  MirrorgridStore
+ * @author  themecentury
  * @package Newspaper_Lite
  * @since   1.0.0
  */
@@ -32,7 +32,6 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 		 */
 		public function admin_menu() {
 			$theme = wp_get_theme( get_stylesheet() );
-
 			$page = add_theme_page( esc_html__( 'About', 'newspaper-lite' ) . ' ' . $theme->display( 'Name' ), esc_html__( 'About', 'newspaper-lite' ) . ' ' . $theme->display( 'Name' ), 'activate_plugins', 'newspaper-lite-welcome', array(
 				$this,
 				'welcome_screen'
@@ -115,13 +114,13 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 			$theme = wp_get_theme( get_stylesheet() );
 
 			// Drop minor version if 0
-			$major_version = substr( $newspaper_lite_version, 0, 3 );
+			//$major_version = substr( $newspaper_lite_version, 0, 3 );
 			?>
 			<div class="newspaper-lite-theme-info">
 				<h1>
 					<?php esc_html_e( 'About', 'newspaper-lite' ); ?>
 					<?php echo esc_html( $theme->display( 'Name' ) ); ?>
-					<?php printf( '%s', $major_version ); ?>
+					<?php printf( esc_html__('%s', 'newspaper-lite'), $newspaper_lite_version ); ?>
 				</h1>
 
 				<div class="welcome-description-wrap">
@@ -134,17 +133,16 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 			</div>
 
 			<p class="newspaper-lite-actions">
-				<a href="<?php echo esc_url( 'https://themecentury.com/demo/newspaper-lite/' ); ?>"
+				<a href="<?php echo esc_url( 'https://themecentury.com/downloads/newspaper-lite-free-wordpress-theme/' ); ?>"
 				   class="button button-secondary" target="_blank"><?php esc_html_e( 'Theme Info', 'newspaper-lite' ); ?></a>
-
-				<a href="<?php echo esc_url( apply_filters( 'newspaper_lite_theme_url', 'https://themecentury.com/demo/newspaper-lite/' ) ); ?>"
+				<a href="<?php echo esc_url( apply_filters( 'newspaper_lite_theme_url', 'https://demo.themecentury.com/wpthemes/newspaper-lite/' ) ); ?>"
 				   class="button button-secondary docs"
 				   target="_blank"><?php esc_html_e( 'View Demo', 'newspaper-lite' ); ?></a>
 
 				<a href="<?php echo esc_url( apply_filters( 'newspaper_lite_rate_url', 'https://wordpress.org/support/view/theme-reviews/newspaper-lite?filter=5#postform' ) ); ?>"
 				   class="button button-secondary docs"
 				   target="_blank"><?php esc_html_e( 'Rate this theme', 'newspaper-lite' ); ?></a>
-				<a href="<?php echo esc_url( apply_filters( 'newspaper_plus_theme_url', 'https://themecentury.com/downloads/newspaper-plus-wordpress-theme/' ) ); ?>"
+				<a href="<?php echo esc_url( apply_filters( 'newspaper_plus_theme_url', 'https://themecentury.com/downloads/newspaper-plus-premium-wordpress-theme/' ) ); ?>"
 				   class="button button-primary docs"
 				   target="_blank"><?php esc_html_e( 'View Pro Version', 'newspaper-lite' ); ?></a>
 			</p>
@@ -215,7 +213,7 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 						<div class="col">
 							<h3><?php esc_html_e( 'Documentation', 'newspaper-lite' ); ?></h3>
 							<p><?php esc_html_e( 'Please view our documentation page to setup the theme.', 'newspaper-lite' ) ?></p>
-							<p><a href="<?php echo esc_url( 'https://themecentury.com/docs/newspaper-lite/' ); ?>"
+							<p><a href="<?php echo esc_url( 'https://docs.themecentury.com/products/newspaper-lite/' ); ?>"
 							      class="button button-secondary"><?php esc_html_e( 'Documentation', 'newspaper-lite' ); ?></a>
 							</p>
 						</div>
@@ -223,14 +221,14 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 						<div class="col">
 							<h3><?php esc_html_e( 'Got theme support question?', 'newspaper-lite' ); ?></h3>
 							<p><?php esc_html_e( 'Please put it in our dedicated support forum.', 'newspaper-lite' ) ?></p>
-							<p><a href="<?php echo esc_url( 'https://themecentury.com/support/' ); ?>"
+							<p><a href="<?php echo esc_url( 'https://themecentury.com/forums/forum/newspaper-lite-free-wordpress-theme/' ); ?>"
 							      class="button button-secondary"><?php esc_html_e( 'Support', 'newspaper-lite' ); ?></a></p>
 						</div>
 
 						<div class="col">
 							<h3><?php esc_html_e( 'Any question about this theme or us?', 'newspaper-lite' ); ?></h3>
 							<p><?php esc_html_e( 'Please send it via our sales contact page.', 'newspaper-lite' ) ?></p>
-							<p><a href="<?php echo esc_url( 'https://themecentury.com/contact-us/' ); ?>"
+							<p><a href="<?php echo esc_url( 'https://themecentury.com/contact/' ); ?>"
 							      class="button button-secondary"><?php esc_html_e( 'Contact Page', 'newspaper-lite' ); ?></a>
 							</p>
 						</div>
@@ -472,7 +470,7 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 						<td></td>
 						<td></td>
 						<td class="btn-wrapper">
-							<a href="<?php echo esc_url( apply_filters( 'newspaper_pro_theme_url', 'https://themecentury.com/downloads/newspaper-plus-wordpress-theme/' ) ); ?>"
+							<a href="<?php echo esc_url( apply_filters( 'newspaper_pro_theme_url', 'https://themecentury.com/downloads/newspaper-plus-premium-wordpress-theme/' ) ); ?>"
 							   class="button button-secondary docs"
 							   target="_blank"><?php esc_html_e( 'View Pro', 'newspaper-lite' ); ?></a>
 						</td>

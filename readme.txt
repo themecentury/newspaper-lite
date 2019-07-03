@@ -85,7 +85,7 @@ Get free support at https://themecentury.com/forums/forum/newspaper-lite-free-wo
 All available options can be used from Appearance->Customize
 
 == Changelog ==
-= 1.0.5 - 2019/06/22 =
+= 1.0.5 - 2019/06/25 =
     * Theme Changed related to Theme Century
     * Optimized All Settings to User experience
 

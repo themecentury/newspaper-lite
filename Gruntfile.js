@@ -1,9 +1,7 @@
 /* jshint node:true */
 module.exports = function (grunt) {
     'use strict';
-
     grunt.initConfig({
-
         // Setting folder templates.
         dirs: {
             js: 'assets/js',
@@ -46,7 +44,7 @@ module.exports = function (grunt) {
                 output: {
                     comments: /@license|@preserve|^!/
                 },
-                mangle:{
+                mangle: {
                     properties: false,
                 },
             },
@@ -68,9 +66,9 @@ module.exports = function (grunt) {
         sass: {
             options: {
                 sourceMap: true,
-                check:false,
-                unix_newlines: true,
-                sourceMapFileInline: true,
+                // check:false,
+                // unix_newlines: true,
+                // sourceMapFileInline: true,
             },
             dist: {
                 files: [{
@@ -87,7 +85,7 @@ module.exports = function (grunt) {
         rtlcss: {
             generate: {
                 options: {
-                    map:false,
+                    map: false,
                     //map: {inline:false},
                 },
                 expand: true,
@@ -100,10 +98,6 @@ module.exports = function (grunt) {
 
         // Minify all .css files.
         cssmin: {
-            options: {
-                sourceMap: false,
-                sourceMapFileInline: false,
-            },
             minify: {
                 expand: true,
                 cwd: '<%= dirs.css %>/',
@@ -123,10 +117,6 @@ module.exports = function (grunt) {
         // Watch changes for assets.
         watch: {
             css: {
-                options: {
-                    sourceMap: true,
-                    sourceMapFileInline: true,
-                },
                 files: [
                     '<%= dirs.scss %>/*.scss',
                     '<%= dirs.scss %>/**/*.scss'
@@ -153,7 +143,7 @@ module.exports = function (grunt) {
                     'language-team': 'LANGUAGE <themecentury@gmail.com>',
                 },
                 //updatePoFiles: true,
-                
+
             },
             dist: {
                 options: {
@@ -161,7 +151,7 @@ module.exports = function (grunt) {
                     exclude: [
                         'vendor/.*'
                     ],
-                    
+
                 }
             }
         },
@@ -219,7 +209,7 @@ module.exports = function (grunt) {
                 processors: [
                     require('autoprefixer')({
                         browsers: [
-                        	'last 4 versions',
+                            'last 4 versions',
                             '> 0.1%',
                             'ie 8',
                             'ie 9',
@@ -252,7 +242,8 @@ module.exports = function (grunt) {
                     '!sass/**',
                     '!vendor/**',
                     '!Gruntfile.js',
-                    '!package.json',
+                    '!package-lock.json',
+                    '!composer.json',
                     '!package.json',
                     '!assets/scss/**',
                     '!composer-lock.json',
@@ -266,10 +257,10 @@ module.exports = function (grunt) {
                 expand: true
             }
         },
-        browserSync:{
-            dev:{
-                bsFiles:{
-                    src:[
+        browserSync: {
+            dev: {
+                bsFiles: {
+                    src: [
                         'assets/css/*.css',
                     ],
                 },
@@ -338,4 +329,4 @@ module.exports = function (grunt) {
     /*grunt.registerTask('watch', [
         'watch',
     ]);*/
-};
+ };
