@@ -48,8 +48,8 @@ Newspaper Lite Grid Block
 }
 
 .block-header, .widget .widget-title-wrapper, .related-articles-wrapper .widget-title-wrapper {
-	border-left: 2px solid $primary_color;
-	border-bottom: 2px solid $primary_color;
+	border: 2px solid $primary_color;
+	border-width:0 0 2px 2px;
 	line-height: 18px;
 	margin-bottom: 20px;
 	min-height: 23px;

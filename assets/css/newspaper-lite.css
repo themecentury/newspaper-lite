@@ -111,7 +111,6 @@ blockquote {
   border-left: 8px solid #dddddd; }
   blockquote:hover {
     -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
   blockquote:before {
     height: 0;
@@ -355,6 +354,7 @@ Links
 a {
   color: #008987;
   text-decoration: none;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out; }
@@ -371,7 +371,8 @@ Accessibility
   .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
     background-color: #f1f1f1;
     border-radius: 3px;
-    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
     clip: auto !important;
     color: #21759b;
     display: block;
@@ -484,17 +485,20 @@ Clearings
   .newspaper-liteSlider li figure img, .newspaper-liteCarousel li figure img, .post-thumb-wrapper figure img, .single-post-wrapper figure img {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
     -webkit-transform: scale(1) rotate(0deg);
     -ms-transform: scale(1) rotate(0deg);
     -o-transform: scale(1) rotate(0deg);
-    transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+         transform: scale(1) rotate(0deg);
     opacity: 1; }
     .newspaper-liteSlider li figure img:hover, .newspaper-liteCarousel li figure img:hover, .post-thumb-wrapper figure img:hover, .single-post-wrapper figure img:hover {
       -webkit-transform: scale(1.05) rotate(1deg);
       -ms-transform: scale(1.05) rotate(1deg);
       -o-transform: scale(1.05) rotate(1deg);
-      transform: scale(1.05) rotate(1deg);
+      -moz-transform: scale(1.05) rotate(1deg);
+           transform: scale(1.05) rotate(1deg);
       opacity: 0.8; }
 
 .single-featured-wrap {
@@ -502,17 +506,20 @@ Clearings
   .single-featured-wrap .mg-post-thumb figure img {
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
     -webkit-transform: scale(1) rotate(0deg);
     -ms-transform: scale(1) rotate(0deg);
     -o-transform: scale(1) rotate(0deg);
-    transform: scale(1) rotate(0deg);
+    -moz-transform: scale(1) rotate(0deg);
+         transform: scale(1) rotate(0deg);
     opacity: 1; }
   .single-featured-wrap .mg-post-thumb:hover figure img {
     -webkit-transform: scale(1.05) rotate(1deg);
     -ms-transform: scale(1.05) rotate(1deg);
     -o-transform: scale(1.05) rotate(1deg);
-    transform: scale(1.05) rotate(1deg);
+    -moz-transform: scale(1.05) rotate(1deg);
+         transform: scale(1.05) rotate(1deg);
     opacity: 0.8; }
 
 #content .block-header,
@@ -711,7 +718,8 @@ article.hentry .entry-footer > span {
   .nav-links .nav-next a {
     display: block;
     overflow: hidden;
-    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
     white-space: nowrap;
     position: relative;
     padding-right: 20px; }
@@ -719,7 +727,8 @@ article.hentry .entry-footer > span {
 .nav-links .nav-previous a {
   display: block;
   overflow: hidden;
-  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
   white-space: nowrap; }
 
 .entry-thumbnail {
@@ -1006,7 +1015,8 @@ body {
   line-height: 1.8; }
 
 .boxed_layout #page {
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   width: 1200px;
   background: #ffffff; }
@@ -1072,7 +1082,7 @@ TOP HEADER CSS
   display: none; }
 
 /* For browsers that support 'object-fit' */
-@supports (object-fit: cover) {
+@supports ((-o-object-fit: cover) or (object-fit: cover)) {
   .has-header-image .custom-header-media img,
   .has-header-video .custom-header-media video,
   .has-header-video .custom-header-media iframe,
@@ -1085,7 +1095,8 @@ TOP HEADER CSS
     -ms-transform: none;
     -moz-transform: none;
     -webkit-transform: none;
-    transform: none;
+    -o-transform: none;
+       transform: none;
     width: 100%; } }
 
 .has-header-video .custom-header-media iframe {
@@ -1104,7 +1115,8 @@ TOP HEADER CSS
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%); }
+  -o-transform: translateX(-50%) translateY(-50%);
+     transform: translateX(-50%) translateY(-50%); }
 
 #wp-custom-header img {
   width: 100%; }
@@ -1258,7 +1270,6 @@ BOTTOM HEADER CSS
     visibility: hidden;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
     .main-navigation ul.sub-menu li a, .main-navigation ul.children li a {
@@ -1308,7 +1319,8 @@ BOTTOM HEADER CSS
 
 .header-search-wrapper .search-form-main {
   background: #ffffff none repeat scroll 0 0;
-  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.15);
   border-top: 2px solid #008987;
   padding: 15px;
   position: absolute;
@@ -1336,7 +1348,8 @@ BOTTOM HEADER CSS
   .header-search-wrapper .search-form-main .search-submit {
     border: medium none;
     border-radius: 0;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     color: #fff;
     float: left;
     padding: 10px 0 10px;
@@ -1445,7 +1458,6 @@ SLIDER CSS
   margin: 2px 10px 0 0;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-style: normal; }
@@ -1457,7 +1469,6 @@ SLIDER CSS
   margin: 2px 10px 0 0;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-style: normal; }
@@ -1469,7 +1480,6 @@ SLIDER CSS
   margin: 2px 10px 0 0;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-style: normal; }
@@ -1595,6 +1605,10 @@ footer#colophon .newspaper-lite-carousel h3 a {
   padding: 10px;
   border: 1px solid #e1e1e1; }
   .newspaper-lite-carousel .owl-stage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0 10px; }
     .newspaper-lite-carousel .owl-stage .owl-item {
@@ -1605,11 +1619,14 @@ footer#colophon .newspaper-lite-carousel h3 a {
     .newspaper-lite-carousel .item figure img {
       -moz-transition: all 0.3s;
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s; }
       .newspaper-lite-carousel .item figure img:hover {
         -webkit-transform: scale(1.5);
         -moz-transform: scale(1.5);
-        transform: scale(1.5); }
+        -ms-transform: scale(1.5);
+         -o-transform: scale(1.5);
+            transform: scale(1.5); }
   .newspaper-lite-carousel .item .carousel-content-wrapper {
     padding: 10px 10px 0; }
     .newspaper-lite-carousel .item .carousel-content-wrapper .post-cat-list a {
@@ -1675,6 +1692,7 @@ footer#colophon .newspaper-lite-carousel h3 a {
         .mg-feature-slider.center .featured-post-wrapper .featured-left-section .single-featured-wrap,
         .mg-feature-slider.center .featured-post-wrapper .featured-right-section .single-featured-wrap {
           width: 48%;
+          width: -moz-calc(50% - 10px);
           width: calc(50% - 10px);
           float: left;
           margin: 0 5px 10px; } }
@@ -1787,8 +1805,8 @@ Newspaper Lite Grid Block
   margin-left: -1%; }
 
 .block-header, .widget .widget-title-wrapper, .related-articles-wrapper .widget-title-wrapper {
-  border-left: 2px solid #008987;
-  border-bottom: 2px solid #008987;
+  border: 2px solid #008987;
+  border-width: 0 0 2px 2px;
   line-height: 18px;
   margin-bottom: 20px;
   min-height: 23px;
@@ -1970,7 +1988,6 @@ Newspaper Lite Default Widget
   position: relative;
   -webkit-transition: color 0.3s ease;
   -moz-transition: color 0.3s ease;
-  -ms-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
   display: inline-block; }
@@ -2000,7 +2017,6 @@ Newspaper Lite Default Widget
   top: 0px;
   -webkit-transition: color 0.3s ease;
   -moz-transition: color 0.3s ease;
-  -ms-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
   transition: color 0.3s ease; }
 
@@ -2170,7 +2186,6 @@ Search page css
     visibility: visible;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease; }
 
@@ -2452,7 +2467,8 @@ Archive page  column css
   text-align: left; }
 
 .archive-columns .archive-desc-wrapper {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 5px 20px 20px;
   position: relative; }
   .archive-columns .archive-desc-wrapper:before {
@@ -2529,7 +2545,6 @@ scroll to top css
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   color: #ffffff;
@@ -2758,7 +2773,8 @@ body.dark_skin .search-form-top {
   border: 0 none; }
 
 body.dark_skin .widget_featured_posts .single-article {
-  box-shadow: 0 0 0 0 transparent; }
+  -webkit-box-shadow: 0 0 0 0 transparent;
+          box-shadow: 0 0 0 0 transparent; }
 
 body.dark_skin .widget_featured_posts .article-content .entry-title a {
   color: #fff; }
@@ -2812,7 +2828,8 @@ body.dark_skin .search .entry-title a {
 
 body.dark_skin .random_posts_widget_inner_wrap,
 body.dark_skin .single-related-posts {
-  box-shadow: 0 0 0 0 transparent; }
+  -webkit-box-shadow: 0 0 0 0 transparent;
+          box-shadow: 0 0 0 0 transparent; }
 
 body.dark_skin .footer-widgets-wrapper,
 body.dark_skin .footer-socket-wrapper {
@@ -2844,5 +2861,4 @@ body.dark_skin footer#colophon {
 
 body.dark_skin .widget_calendar {
   color: #fff; }
-
 /*# sourceMappingURL=newspaper-lite.css.map */

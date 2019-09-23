@@ -85,7 +85,7 @@ module.exports = function (grunt) {
         rtlcss: {
             generate: {
                 options: {
-                    map: false,
+                    map: true,
                     //map: {inline:false},
                 },
                 expand: true,
@@ -98,10 +98,13 @@ module.exports = function (grunt) {
 
         // Minify all .css files.
         cssmin: {
+            options:{
+                sourceMap: true,
+            },
             minify: {
                 expand: true,
                 cwd: '<%= dirs.css %>/',
-                src: ['*.css', '!*.min.css'],
+                src: ['*.css', '!*.min.css', '!*.min-rtl.css'],
                 dest: '<%= dirs.css %>/',
                 ext: '.min.css'
             }
@@ -122,7 +125,7 @@ module.exports = function (grunt) {
                     '<%= dirs.scss %>/**/*.scss'
 
                 ],
-                tasks: ['sass', 'postcss', 'cssmin', /*'rtlcss'*/],
+                tasks: ['sass', 'postcss', 'cssmin', 'rtlcss'],
             },
             js: {
                 files: [
@@ -140,7 +143,8 @@ module.exports = function (grunt) {
                 domainPath: 'languages/',
                 potHeaders: {
                     'report-msgid-bugs-to': 'themecentury@gmail.com',
-                    'language-team': 'LANGUAGE <themecentury@gmail.com>',
+                    'last-translator': 'Theme Century <themecentury@gmail.com>',
+                    'language-team': 'Theme Century <themecentury@gmail.com>',
                 },
                 //updatePoFiles: true,
 
@@ -245,13 +249,13 @@ module.exports = function (grunt) {
                     '!package-lock.json',
                     '!composer.json',
                     '!package.json',
-                    '!assets/scss/**',
                     '!composer-lock.json',
                     '!composer.lock',
                     '!node_modules/**',
                     '!phpcs.ruleset.xml',
                     '!demo-content/**',
                     '!*.gitignore',
+                    '!requirement.txt',
                 ],
                 dest: 'newspaper-lite',
                 expand: true
@@ -265,11 +269,11 @@ module.exports = function (grunt) {
                     ],
                 },
                 options: {
-                    //watchTask: ['sass', 'postcss', 'cssmin'],
+                    //watchTask: ['sass', 'postcss', 'cssmin', ''],
                     /*server:{
                         baseDir: "./assets/css",
                     },*/
-                    port: 4000,
+                    port: 3500,
                     watchTask: true,
                     proxy: "localhost/themecentury/themes/newspaper-lite",
                 },
@@ -312,7 +316,7 @@ module.exports = function (grunt) {
         'sass',
         'postcss',
         'cssmin',
-        /*'rtlcss',*/
+        'rtlcss',
         //'concat'
     ]);
 
@@ -322,7 +326,9 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('zip', [
-        //'dev',
+        'css',
+        'js',
+        'makepot',
         'compress'
     ]);
 

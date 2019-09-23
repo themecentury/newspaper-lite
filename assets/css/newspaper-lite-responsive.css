@@ -76,6 +76,7 @@
     overflow-y: auto;
     max-height: 100vh; }
   .is-sticky .main-navigation {
+    max-height: -moz-calc(100vh - 43px);
     max-height: calc(100vh - 43px); }
   .bottom-header-wrapper {
     position: relative; }
@@ -117,7 +118,6 @@
     background: none;
     -webkit-transition: none;
     -moz-transition: none;
-    -ms-transition: none;
     -o-transition: none;
     transition: none; }
   .main-navigation ul.sub-menu {
@@ -215,6 +215,7 @@
 
 @media (min-width: 769px) {
   .main-navigation {
+    max-width: -moz-calc(100% - 100px);
     max-width: calc(100% - 100px); } }
 
 @media (max-width: 992px) {
@@ -241,5 +242,4 @@
     float: none;
     margin-bottom: 20px;
     width: 100%; } }
-
 /*# sourceMappingURL=newspaper-lite-responsive.css.map */
