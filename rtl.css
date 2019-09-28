@@ -21,9 +21,45 @@
 -------------------------- Header Section --------------------------------
 ==========================================================================*/
 
+.ticker-caption{
+	float:right;
+}
+
+.ticker-content-wrapper{
+	float:left;
+	padding:4px 30px 0 0;
+}
+
+.top-left-header{
+	float:right;
+}
+.top-social-wrapper .social-link{
+	margin-left:0;
+	margin-right:20px;
+}
+.top-header-section .date-section{
+	float:right;
+	margin-right:0;
+	margin-left:15px;
+}
+#top-header-navigation{
+	float:right;
+}
+.top-social-wrapper{
+	float:left;
+}
+
 .home-icon, 
 .main-navigation{
 	float:right;
+}
+
+.site-branding{
+	float:right;
+}
+
+.header-ads-wrapper{
+	float:left;
 }
 
 .header-search-wrapper{
@@ -32,6 +68,16 @@
 
 .main-navigation ul li{
 	float:right;
+}
+
+.header-search-wrapper .search-form-main{
+	left:0;
+	right:unset;
+}
+
+.header-search-wrapper .search-form-main::before{
+	left:15px;
+	right:unset;
 }
 
 /*=========================================================================

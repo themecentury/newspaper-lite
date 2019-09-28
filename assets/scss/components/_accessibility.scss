@@ -46,3 +46,20 @@ Alignments
   display: block;
   margin: 0 auto;
 }
+
+/*--------------------------------------------------------------
+Accessibility Rules
+--------------------------------------------------------------*/
+/*
+a{
+  &:focus, &:active{
+      outline: 1px dotted #dedede;
+  }
+}
+
+button{
+  &:focus, &:active{
+    outline:1px dotted #dedede;
+  }
+}
+*/

@@ -85,6 +85,10 @@ Get free support at https://themecentury.com/forums/forum/newspaper-lite-free-wo
 All available options can be used from Appearance->Customize
 
 == Changelog ==
+= 1.0.6 - 2019/09/29 =
+    * RTL issue fixed
+    * Featured Slider issue fixed on chrome
+
 = 1.0.5 - 2019/06/25 =
     * Theme Changed related to Theme Century
     * Optimized All Settings to User experience
@@ -107,29 +111,4 @@ All available options can be used from Appearance->Customize
     * readme modify
 
 = 1.0.0 - 2018/08/19 =
-    * Initial released
-
-== Upgrade Notice ==
-= 1.0.5 =
-    * Theme Changed related to Theme Century
-    * Optimized All Settings to User experience
-
-= 1.0.4 =
-    * Acquire theme from mirrorgrid
-    * All mirrorgrid links changed 
-
-= 1.0.3 =
-    * About us added
-    * Date format for news ticker added
-    * minor design issue fixed
-
-= 1.0.2 =
-    * Tag updated
-
-= 1.0.1 =
-    * Screenshot change
-    * one tag added
-    * readme modify
-
-= 1.0.0 =
     * Initial released

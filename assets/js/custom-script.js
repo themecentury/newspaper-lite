@@ -32,7 +32,7 @@
 						mode: 'vertical',
 						auto: true,
 						controls: false,
-						pager: false
+						pager: false,
 					});
 				}
 
