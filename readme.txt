@@ -89,7 +89,7 @@ Get free support at https://themecentury.com/forums/forum/newspaper-lite-free-wo
 All available options can be used from Appearance->Customize
 
 == Changelog ==
-= 1.0.6 - 2019/09/29 =
+= 1.0.6 - 2019/09/30 =
     * Fixed: RTL issue fixed
     * Fixed: Feature slider click issue on chrome
     * Update: Screenshot Update with new pxhere with license

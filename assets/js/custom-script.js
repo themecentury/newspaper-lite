@@ -4,6 +4,7 @@
 
 	var npl_window = $(window);
 	var npl_document = $(document);
+	var is_rtl = false;
 	var TCY_NPL = {
 
 		Snipits: {
@@ -17,6 +18,10 @@
 				var divs = $('section.newspaper_lite_block_column');
 				for (var i = 0; i < divs.length;) {
 					i += divs.eq(i).nextUntil(':not(.newspaper_lite_block_column').andSelf().wrapAll('<div class="newspaper_lite_block_column-wrap"> </div>').length;
+				}
+
+				if($('body').hasClass('rtl') ){
+					is_rtl = true;
 				}
 
 			},
@@ -55,14 +60,14 @@
 				});
 
 				// Slider
-				if ($('.newspaper-liteSlider').length > 0) {
-					$('.newspaper-liteSlider').bxSlider({
+				$('.newspaper-liteSlider').each(function(evt){
+					$(this).bxSlider({
 						pager: false,
 						controls: true,
 						prevText: '<i class="fa fa-arrow-left"> </i>',
 						nextText: '<i class="fa fa-arrow-right"> </i>'
 					});
-				}
+				});
 
 				var newspaper_lite_carousel = $('.newspaper-lite-carousel');
 				var newspaper_lite_carousel_args = {
@@ -76,6 +81,7 @@
 					controls: true,
 					loop: true,
 					nav: false,
+					rtl: is_rtl,
 					autoplayTimeout: 2200,
 					autoplay: true,
 					navText: ['<i class="fa fa-arrow-left"> </i>', '<i class="fa fa-arrow-right"> </i>']
@@ -86,6 +92,7 @@
 						newspaper_lite_carousel_args.items = (items > 3) ? 3 : (items < 1) ? 1 : Math.floor(items);
 						var data_timer = undefined !== $(this).attr('data-timer') ? $(this).attr('data-timer') : 2200;
 						newspaper_lite_carousel_args.autoplayTimeout = data_timer;
+						newspaper_lite_carousel_args.rtl = is_rtl;
 						$(this).owlCarousel(newspaper_lite_carousel_args);
 					});
 				}
@@ -147,8 +154,8 @@
 
 			var __this = TCY_NPL;
 			var snipits = __this.Snipits;
-			snipits.Sliders();
 			snipits.AppendHTML();
+			snipits.Sliders();
 			__this.Events();	
 
 		},

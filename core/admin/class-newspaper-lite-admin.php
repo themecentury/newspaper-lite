@@ -120,7 +120,7 @@ if ( ! class_exists( 'Newspaper_Lite_Admin' ) ) :
 				<h1>
 					<?php esc_html_e( 'About', 'newspaper-lite' ); ?>
 					<?php echo esc_html( $theme->display( 'Name' ) ); ?>
-					<?php printf( esc_html__('%s', 'newspaper-lite'), $newspaper_lite_version ); ?>
+					<?php printf( esc_html__(' %s', 'newspaper-lite'), $newspaper_lite_version ); ?>
 				</h1>
 
 				<div class="welcome-description-wrap">
