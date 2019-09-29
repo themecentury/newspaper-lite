@@ -90,29 +90,30 @@ All available options can be used from Appearance->Customize
 
 == Changelog ==
 = 1.0.6 - 2019/09/29 =
-    * RTL issue fixed
-    * Featured Slider issue fixed on chrome
+    * Fixed: RTL issue fixed
+    * Fixed: Feature slider click issue on chrome
+    * Update: Screenshot Update with new pxhere with license
 
 = 1.0.5 - 2019/06/25 =
-    * Theme Changed related to Theme Century
-    * Optimized All Settings to User experience
+    * Update: Theme Changed related to Theme Century
+    * Update: Optimized All Settings to User experience
 
 = 1.0.4 - 2019/03/19 =
-    * Acquire theme from mirrorgrid
-    * All mirrorgrid links changed 
+    * Notice: Acquire theme from mirrorgrid
+    * Update: All mirrorgrid links changed 
 
 = 1.0.3 - 2018/12/31 =
-    * About us added
-    * Date format for news ticker added
-    * minor design issue fixed
+    * Added: About us added
+    * Update: Date format for news ticker added
+    * Fixed: minor design issue fixed
 
 = 1.0.2 - 2018/11/30 =
-    * Tag updated
+    * Update: Tag updated
 
 = 1.0.1 - 2018/10/11 =
-    * Screenshot change
-    * one tag added
-    * readme modify
+    * Update: Screenshot change
+    * Update: one tag added
+    * Update: readme modify
 
 = 1.0.0 - 2018/08/19 =
     * Initial released
