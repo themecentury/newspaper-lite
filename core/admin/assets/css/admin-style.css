@@ -209,7 +209,8 @@ div[id*="newspaper_lite_post_carousel"].widget h3 {
 	border-color:#f00;
 }
 
-.control-section-upsell .button:hover{
+.control-section-upsell .button:hover,
+.control-section-upsell .button:focus{
 	color:#f00;
 	border-color:#f00;
 }

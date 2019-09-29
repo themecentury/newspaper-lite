@@ -11,7 +11,7 @@ License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support, custom-background, threaded-comments, custom-menu, custom-logo, post-formats, editor-style
 
 == Description ==
-Newspaper Lite is a  responsive newsportal style Free WordPress theme and this theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. Widget base home page, multiple widget area, header layout, footer layout, Multiple layout of widget and many more. 
+Newspaper Lite is a  responsive newsportal style Free WordPress theme and this theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. Widget base home page, multiple widget area, header layout, footer layout, Multiple layout of widget and many more. Please check demo on https://demo.themecentury.com/wpthemes/newspaper-lite/ and check https://docs.themecentury.com/products/newspaper-lite/ for docs.
 
 == Installation ==
 1. In your admin panel, go to Appearance > Themes and click the Add New button.

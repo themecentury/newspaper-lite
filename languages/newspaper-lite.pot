@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themecentury@gmail.com\n"
-"POT-Creation-Date: 2019-09-29 11:37:10+00:00\n"
+"POT-Creation-Date: 2019-09-29 18:17:03+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -209,6 +209,7 @@ msgid "Newspaper Lite"
 msgstr ""
 
 #: core/admin/class-newspaper-lite-admin.php:314
+#: core/admin/inc/upsell/upsell-section.php:23
 msgid "Newspaper Plus"
 msgstr ""
 
@@ -341,6 +342,7 @@ msgid "Contact us template"
 msgstr ""
 
 #: core/admin/class-newspaper-lite-admin.php:475
+#: core/admin/inc/upsell/upsell-section.php:24
 msgid "View Pro"
 msgstr ""
 

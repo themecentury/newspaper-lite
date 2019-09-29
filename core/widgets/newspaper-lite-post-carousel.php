@@ -178,8 +178,9 @@ class Newspaper_Lite_Post_Carousel extends WP_Widget {
 
 			extract( $widget_field );
 
+			$new_widget_val = isset($new_instance[ $newspaper_lite_widgets_name ]) ? $new_instance[ $newspaper_lite_widgets_name ] : '';
 			// Use helper function to get updated field values
-			$instance[ $newspaper_lite_widgets_name ] = newspaper_lite_widgets_updated_field_value( $widget_field, $new_instance[ $newspaper_lite_widgets_name ] );
+			$instance[ $newspaper_lite_widgets_name ] = newspaper_lite_widgets_updated_field_value( $widget_field, $new_widget_val );
 		}
 
 		return $instance;
