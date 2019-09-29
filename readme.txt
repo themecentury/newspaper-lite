@@ -1,17 +1,17 @@
 === Newspaper Lite ===
 Contributors:       themecentury
 Requires at least:  WordPress 4.0
-Tested up to:       WordPress 5.2.2
+Tested up to:       WordPress 5.2.3
 Donate link:        https://themecentury.com/
 Version:            1.0.5
 Requires PHP:       5.3
-Stable tag:         trunk
+Stable tag:         1.0.5
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support, custom-background, threaded-comments, custom-menu, custom-logo, post-formats, editor-style
 
 == Description ==
-Newspaper Lite is a  responsive newsportal style Free WordPress theme. This theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites.
+Newspaper Lite is a  responsive newsportal style Free WordPress theme and this theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. Widget base home page, multiple widget area, header layout, footer layout, Multiple layout of widget and many more. 
 
 == Installation ==
 1. In your admin panel, go to Appearance > Themes and click the Add New button.
@@ -34,16 +34,20 @@ If you've translated this theme into your language, feel free to send the transl
 
 * Yes, this theme is translation ready. You can use any WordPress language translation plugin.
 
+= Does the theme support RTL languages? =
+
+* Yes theme theme support RTL language. You can check our RTL demo on official website
+
 == Screenshots ==
     
-1. https://pixabay.com/en/actor-bangkok-asia-arts-ancient-1807557/ - Licenses: CCO Public Domain
-2. https://pixabay.com/en/smartphone-mobile-cell-phone-music-791076/ - Licenses: CCO Public Domain
-3. https://pixabay.com/en/server-cloud-development-business-1235959/ - Licenses: CCO Public Domain
-4. https://pixabay.com/en/football-clip-football-boots-soccer-606235/ - Licenses: CCO Public Domain
-5. https://pixabay.com/en/cricket-batter-sport-bat-game-724617/ - Licenses: CCO Public Domain
-6. https://pixabay.com/en/security-secure-locked-technology-2168233/ - Licenses: CCO Public Domain
-7. https://pixabay.com/en/iphone-smartphone-phone-513495/ - Licenses: CCO Public Domain
-8. https://pixabay.com/en/archer-bow-arrow-archery-sports-3563580/ - Licenses: CCO Public Domain
+1. https://pxhere.com/en/photo/762358 - Licenses: CCO Public Domain
+2. https://pxhere.com/en/photo/927411 - Licenses: CCO Public Domain
+3. https://pxhere.com/en/photo/2032 - Licenses: CCO Public Domain
+4. https://pxhere.com/en/photo/911050 - Licenses: CCO Public Domain
+5. https://pxhere.com/en/photo/760480 - Licenses: CCO Public Domain
+6. https://pxhere.com/en/photo/1418183 - Licenses: CCO Public Domain
+7. https://pxhere.com/en/photo/918955 - Licenses: CCO Public Domain
+8. https://pxhere.com/en/photo/780562 - Licenses: CCO Public Domain
 
 == Licenses ==
 http://tgmpluginactivation.com/ - MIT License

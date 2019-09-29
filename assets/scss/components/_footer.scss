@@ -14,9 +14,10 @@ footer#colophon {
             color: $primary_color;
         }
     }
-    h1, h2, h3, h4, h5, h6 {
-        color: inherit;
 
+    .post-content-wrapper .post-content,
+    h1, h2, h3, h4, h5, h6{
+        color: inherit;
     }
     .widget_archive a, .widget_categories a, .widget_meta a, .widget_nav_menu li a, .widget_pages li a, .widget_recent_comments li, .widget_recent_entries a, .widget_rss li {
 

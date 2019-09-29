@@ -1,32 +1,32 @@
-# Copyright (C) 2019 
+# Copyright (C) 2019
 # This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themecentury@gmail.com\n"
-"POT-Creation-Date: 2019-03-09 16:10:41+00:00\n"
+"POT-Creation-Date: 2019-09-29 10:25:45+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
-"X-Generator: grunt-wp-i18n1.0.0\n"
+"Last-Translator: Theme Century <themecentury@gmail.com>\n"
+"Language-Team: Theme Century <themecentury@gmail.com>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
 
-#: core/admin/class-newspaper-lite-admin.php:357
-#: core/admin/class-newspaper-lite-admin.php:358
+#: core/admin/class-newspaper-lite-admin.php:355
+#: core/admin/class-newspaper-lite-admin.php:356
 msgid "6"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:352
+#: core/admin/class-newspaper-lite-admin.php:350
 msgid "7"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:333
+#: core/admin/class-newspaper-lite-admin.php:331
 msgid "15"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:353
+#: core/admin/class-newspaper-lite-admin.php:351
 msgid "16"
 msgstr ""
 
@@ -64,24 +64,24 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:36
-#: core/admin/class-newspaper-lite-admin.php:122
+#: core/admin/class-newspaper-lite-admin.php:35
+#: core/admin/class-newspaper-lite-admin.php:121
 msgid "About"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:76
+#: core/admin/class-newspaper-lite-admin.php:75
 msgid "Action failed. Please refresh the page and retry."
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:80
+#: core/admin/class-newspaper-lite-admin.php:79
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:95
+#: core/admin/class-newspaper-lite-admin.php:94
 msgid "Dismiss"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:98
+#: core/admin/class-newspaper-lite-admin.php:97
 #. translators: 1: anchor tag start, 2: anchor tag end
 msgid ""
 "Welcome! Thank you for choosing newspaper lite! To fully take advantage of "
@@ -89,296 +89,300 @@ msgid ""
 "page%1$s."
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:102
+#: core/admin/class-newspaper-lite-admin.php:101
 msgid "Get started with Newspaper_Lite"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:138
+#: core/admin/class-newspaper-lite-admin.php:123
+msgid "%s"
+msgstr ""
+
+#: core/admin/class-newspaper-lite-admin.php:137
 msgid "Theme Info"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:142
+#: core/admin/class-newspaper-lite-admin.php:140
 msgid "View Demo"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:146
+#: core/admin/class-newspaper-lite-admin.php:144
 msgid "Rate this theme"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:149
+#: core/admin/class-newspaper-lite-admin.php:147
 msgid "View Pro Version"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:165
+#: core/admin/class-newspaper-lite-admin.php:163
 msgid "Changelog"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:173
+#: core/admin/class-newspaper-lite-admin.php:171
 msgid "Free Vs Pro"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:208
+#: core/admin/class-newspaper-lite-admin.php:206
 msgid "Theme Customizer"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:209
+#: core/admin/class-newspaper-lite-admin.php:207
 msgid "All Theme Options are available via Customize screen."
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:211
+#: core/admin/class-newspaper-lite-admin.php:209
 msgid "Customize"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:216
-#: core/admin/class-newspaper-lite-admin.php:219
+#: core/admin/class-newspaper-lite-admin.php:214
+#: core/admin/class-newspaper-lite-admin.php:217
 msgid "Documentation"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:217
+#: core/admin/class-newspaper-lite-admin.php:215
 msgid "Please view our documentation page to setup the theme."
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:224
+#: core/admin/class-newspaper-lite-admin.php:222
 msgid "Got theme support question?"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:225
+#: core/admin/class-newspaper-lite-admin.php:223
 msgid "Please put it in our dedicated support forum."
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:227
-#: core/admin/class-newspaper-lite-admin.php:321
+#: core/admin/class-newspaper-lite-admin.php:225
+#: core/admin/class-newspaper-lite-admin.php:319
 msgid "Support"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:231
+#: core/admin/class-newspaper-lite-admin.php:229
 msgid "Any question about this theme or us?"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:232
+#: core/admin/class-newspaper-lite-admin.php:230
 msgid "Please send it via our sales contact page."
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:234
+#: core/admin/class-newspaper-lite-admin.php:232
 msgid "Contact Page"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:241
-#: core/admin/class-newspaper-lite-admin.php:250
+#: core/admin/class-newspaper-lite-admin.php:239
+#: core/admin/class-newspaper-lite-admin.php:248
 msgid "Translate"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:245
+#: core/admin/class-newspaper-lite-admin.php:243
 msgid "Click below to translate this theme into your own language."
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:262
+#: core/admin/class-newspaper-lite-admin.php:260
 msgid "Return to Updates"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:262
+#: core/admin/class-newspaper-lite-admin.php:260
 msgid "Return to Dashboard &rarr; Updates"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:265
+#: core/admin/class-newspaper-lite-admin.php:263
 msgid "Go to Dashboard &rarr; Home"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:265
+#: core/admin/class-newspaper-lite-admin.php:263
 msgid "Go to Dashboard"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:282
+#: core/admin/class-newspaper-lite-admin.php:280
 msgid "View changelog below:"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:309
+#: core/admin/class-newspaper-lite-admin.php:307
 msgid "Upgrade to PRO version for more awesome features."
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:314
+#: core/admin/class-newspaper-lite-admin.php:312
 msgid "Features"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:315
+#: core/admin/class-newspaper-lite-admin.php:313
 msgid "Newspaper Lite"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:316
+#: core/admin/class-newspaper-lite-admin.php:314
 msgid "Newspaper Plus"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:322
+#: core/admin/class-newspaper-lite-admin.php:320
 msgid "Forum"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:323
+#: core/admin/class-newspaper-lite-admin.php:321
 msgid "Forum + Emails/Support Ticket"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:326
+#: core/admin/class-newspaper-lite-admin.php:324
 msgid "Category color options"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:331
+#: core/admin/class-newspaper-lite-admin.php:329
 msgid "Additional color options"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:336
+#: core/admin/class-newspaper-lite-admin.php:334
 msgid "Primary color option"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:341
+#: core/admin/class-newspaper-lite-admin.php:339
 msgid "Font size options"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:346
+#: core/admin/class-newspaper-lite-admin.php:344
 msgid "Google fonts options"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:348
+#: core/admin/class-newspaper-lite-admin.php:346
 msgid "500+"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:351
+#: core/admin/class-newspaper-lite-admin.php:349
 msgid "Custom widgets"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:356
+#: core/admin/class-newspaper-lite-admin.php:354
 msgid "Social icons"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:361
+#: core/admin/class-newspaper-lite-admin.php:359
 msgid "Social sharing"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:366
+#: core/admin/class-newspaper-lite-admin.php:364
 msgid "Site layout option"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:371
+#: core/admin/class-newspaper-lite-admin.php:369
 msgid "Options in breaking news"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:376
+#: core/admin/class-newspaper-lite-admin.php:374
 msgid "Change read more text"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:381
+#: core/admin/class-newspaper-lite-admin.php:379
 msgid "Related posts"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:386
+#: core/admin/class-newspaper-lite-admin.php:384
 msgid "Author biography"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:391
+#: core/admin/class-newspaper-lite-admin.php:389
 msgid "Footer copyright editor"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:396
+#: core/admin/class-newspaper-lite-admin.php:394
 msgid "728x90 Advertisement"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:401
+#: core/admin/class-newspaper-lite-admin.php:399
 msgid "Featured category slider"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:406
+#: core/admin/class-newspaper-lite-admin.php:404
 msgid "Random posts widget"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:411
+#: core/admin/class-newspaper-lite-admin.php:409
 msgid "Tabbed widget"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:416
+#: core/admin/class-newspaper-lite-admin.php:414
 msgid "Videos"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:422
+#: core/admin/class-newspaper-lite-admin.php:420
 msgid "WooCommerce compatible"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:427
+#: core/admin/class-newspaper-lite-admin.php:425
 msgid "Multiple header options"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:432
+#: core/admin/class-newspaper-lite-admin.php:430
 msgid "Readmore flying card"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:437
+#: core/admin/class-newspaper-lite-admin.php:435
 msgid "Weather widget"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:442
+#: core/admin/class-newspaper-lite-admin.php:440
 msgid "Currency converter widget"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:447
+#: core/admin/class-newspaper-lite-admin.php:445
 msgid "Category enable/disable option"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:452
+#: core/admin/class-newspaper-lite-admin.php:450
 msgid "Reading indicator option"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:457
+#: core/admin/class-newspaper-lite-admin.php:455
 msgid "Lightbox support"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:462
+#: core/admin/class-newspaper-lite-admin.php:460
 msgid "Call to action widget"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:467
+#: core/admin/class-newspaper-lite-admin.php:465
 msgid "Contact us template"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:477
+#: core/admin/class-newspaper-lite-admin.php:475
 msgid "View Pro"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:524
+#: core/admin/class-newspaper-lite-admin.php:522
 msgid "This theme recommends following plugins:"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:527
+#: core/admin/class-newspaper-lite-admin.php:525
 msgid "Social Icons"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:528
-#: core/admin/class-newspaper-lite-admin.php:532
+#: core/admin/class-newspaper-lite-admin.php:526
+#: core/admin/class-newspaper-lite-admin.php:530
 msgid " by themecentury"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:531
+#: core/admin/class-newspaper-lite-admin.php:529
 msgid "Easy Social Sharing"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:535
+#: core/admin/class-newspaper-lite-admin.php:533
 msgid "Contact Form 7"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:537
+#: core/admin/class-newspaper-lite-admin.php:535
 msgid "WP-PageNavi"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:539
+#: core/admin/class-newspaper-lite-admin.php:537
 msgid "WooCommerce"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:542
+#: core/admin/class-newspaper-lite-admin.php:540
 msgid "Polylang"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:543
-#: core/admin/class-newspaper-lite-admin.php:548
+#: core/admin/class-newspaper-lite-admin.php:541
+#: core/admin/class-newspaper-lite-admin.php:546
 msgid "Fully Compatible in Pro Version"
 msgstr ""
 
-#: core/admin/class-newspaper-lite-admin.php:547
+#: core/admin/class-newspaper-lite-admin.php:545
 msgid "WPML"
 msgstr ""
 
@@ -417,7 +421,7 @@ msgid "Fullwidth Layout"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:35
-#: core/admin/inc/panels/general-panel.php:88
+#: core/admin/inc/panels/options-panel.php:62
 msgid "Boxed Layout"
 msgstr ""
 
@@ -426,93 +430,93 @@ msgid "Default Skin"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:59
-#: core/admin/inc/panels/design-panel.php:179
-#: core/admin/inc/panels/header-panel.php:59
-#: core/admin/inc/panels/header-panel.php:133
-#: core/admin/inc/panels/header-panel.php:185
-#: core/admin/inc/panels/header-panel.php:223
-#: core/admin/inc/panels/header-panel.php:262
+#: core/admin/inc/panels/header-panel.php:65
+#: core/admin/inc/panels/header-panel.php:153
+#: core/admin/inc/panels/header-panel.php:205
+#: core/admin/inc/panels/header-panel.php:250
+#: core/admin/inc/panels/header-panel.php:289
+#: core/admin/inc/panels/template-panel.php:183
 msgid "Enable"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:60
-#: core/admin/inc/panels/design-panel.php:180
-#: core/admin/inc/panels/header-panel.php:60
-#: core/admin/inc/panels/header-panel.php:134
-#: core/admin/inc/panels/header-panel.php:186
-#: core/admin/inc/panels/header-panel.php:224
-#: core/admin/inc/panels/header-panel.php:263
+#: core/admin/inc/panels/header-panel.php:66
+#: core/admin/inc/panels/header-panel.php:154
+#: core/admin/inc/panels/header-panel.php:206
+#: core/admin/inc/panels/header-panel.php:251
+#: core/admin/inc/panels/header-panel.php:290
+#: core/admin/inc/panels/template-panel.php:184
 msgid "Disable"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:72
-#: core/admin/inc/panels/header-panel.php:106
+#: core/admin/inc/panels/header-panel.php:112
 msgid "Yes"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:73
-#: core/admin/inc/panels/header-panel.php:107
+#: core/admin/inc/panels/header-panel.php:113
 msgid "No"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:85
-#: core/admin/inc/panels/design-panel.php:153
+#: core/admin/inc/panels/template-panel.php:157
 msgid "Show"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:86
-#: core/admin/inc/panels/design-panel.php:154
+#: core/admin/inc/panels/template-panel.php:158
 msgid "Hide"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:98
-#: core/admin/inc/panels/design-panel.php:85
+#: core/admin/inc/panels/template-panel.php:89
 msgid "Classic Layout"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:99
-#: core/admin/inc/panels/design-panel.php:86
+#: core/admin/inc/panels/template-panel.php:90
 msgid "Columns Layout"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:126
-#: core/admin/inc/panels/design-panel.php:301
+#: core/admin/inc/panels/footer-panel.php:58
 msgid "One Column"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:127
-#: core/admin/inc/panels/design-panel.php:302
+#: core/admin/inc/panels/footer-panel.php:59
 msgid "Two Columns"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:128
-#: core/admin/inc/panels/design-panel.php:303
+#: core/admin/inc/panels/footer-panel.php:60
 msgid "Three Columns"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:129
-#: core/admin/inc/panels/design-panel.php:304
+#: core/admin/inc/panels/footer-panel.php:61
 msgid "Four Columns"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:141
-#: core/admin/inc/panels/design-panel.php:223
+#: core/admin/inc/panels/template-panel.php:229
 msgid "by Category"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:142
-#: core/admin/inc/panels/design-panel.php:224
+#: core/admin/inc/panels/template-panel.php:230
 msgid "by Tags"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:154
-#: core/admin/inc/panels/design-panel.php:355
+#: core/admin/inc/panels/options-panel.php:94
 #: core/newspaper-lite-functions.php:757 core/newspaper-lite-functions.php:770
 msgid "Default"
 msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:155
-#: core/admin/inc/panels/design-panel.php:356
+#: core/admin/inc/panels/options-panel.php:95
 msgid "Dark Skin"
 msgstr ""
 
@@ -532,333 +536,357 @@ msgstr ""
 msgid "Additional Settings"
 msgstr ""
 
-#: core/admin/inc/panels/additional-panel.php:31
+#: core/admin/inc/panels/additional-panel.php:32
+msgid "Social Media"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:53
+msgid "Facebook"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:54
+msgid "Your Facebook Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:74
+msgid "Twitter"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:75
+msgid "Your Twitter Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:95
+msgid "Google Plus"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:96
+msgid "Your Google Plus Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:116
+msgid "LinkedIn"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:117
+msgid "Your LinkedIn Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:137
+msgid "YouTube"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:138
+msgid "Your YouTube Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:158
+msgid "Vimeo"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:159
+msgid "Your Vimeo Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:179
+msgid "Pinterest"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:180
+msgid "Your Pinterest Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:200
+msgid "Instagram"
+msgstr ""
+
+#: core/admin/inc/panels/additional-panel.php:201
+msgid "Your Instagram Account URL"
+msgstr ""
+
+#: core/admin/inc/panels/color-panel.php:23
+msgid "Color Settings"
+msgstr ""
+
+#: core/admin/inc/panels/color-panel.php:29
+msgid "Global Color"
+msgstr ""
+
+#: core/admin/inc/panels/color-panel.php:46
+msgid "Theme color"
+msgstr ""
+
+#: core/admin/inc/panels/color-panel.php:47
+msgid "Choose color to make different your website."
+msgstr ""
+
+#: core/admin/inc/panels/color-panel.php:59
 msgid "Categories Color"
 msgstr ""
 
-#: core/admin/inc/panels/additional-panel.php:58
+#: core/admin/inc/panels/color-panel.php:86
 #. translators: %s: category namet
 msgid " %s"
 msgstr ""
 
-#: core/admin/inc/panels/additional-panel.php:71
-msgid "Social Media"
+#: core/admin/inc/panels/footer-panel.php:23
+msgid "Footer Options"
 msgstr ""
 
-#: core/admin/inc/panels/additional-panel.php:92
-msgid "Facebook"
+#: core/admin/inc/panels/footer-panel.php:35
+msgid "Top Footer Settings"
 msgstr ""
 
-#: core/admin/inc/panels/additional-panel.php:93
-msgid "Your Facebook Account URL"
+#: core/admin/inc/panels/footer-panel.php:54
+msgid "Top Footer Widget Area"
 msgstr ""
 
-#: core/admin/inc/panels/additional-panel.php:113
-msgid "Twitter"
+#: core/admin/inc/panels/footer-panel.php:55
+msgid "Choose option to display number of columns in top footer area."
 msgstr ""
 
-#: core/admin/inc/panels/additional-panel.php:114
-msgid "Your Twitter Account URL"
+#: core/admin/inc/panels/footer-panel.php:74
+msgid "Bottom Footer Settings"
 msgstr ""
 
-#: core/admin/inc/panels/additional-panel.php:134
-msgid "Google Plus"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:135
-msgid "Your Google Plus Account URL"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:155
-msgid "LinkedIn"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:156
-msgid "Your LinkedIn Account URL"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:176
-msgid "YouTube"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:177
-msgid "Your YouTube Account URL"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:197
-msgid "Vimeo"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:198
-msgid "Your Vimeo Account URL"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:218
-msgid "Pinterest"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:219
-msgid "Your Pinterest Account URL"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:239
-msgid "Instagram"
-msgstr ""
-
-#: core/admin/inc/panels/additional-panel.php:240
-msgid "Your Instagram Account URL"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:23
-msgid "Design Settings"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:34
-msgid "Archive Settings"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:55
-#: core/admin/inc/panels/design-panel.php:120
-#: core/admin/inc/panels/design-panel.php:258
-msgid "Available Sidebars"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:56
-msgid "Select sidebar for whole site archives, categories, search page etc."
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:81
-msgid "Archive Page Layout"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:82
-msgid "Choose available layout for all archive pages."
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:99
-msgid "Post Settings"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:121
-msgid "Select sidebar for whole single post page."
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:148
-msgid "Author Option"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:149
-msgid "Enable/disable author information at single post page."
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:174
-msgid "Related Articles Option"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:175
-msgid "Enable/disable related articles section at single post page."
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:190
-#: core/newspaper-lite-functions.php:649
-msgid "Related Articles"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:200
-msgid "Section Title"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:219
-msgid "Types of Related Articles"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:220
-msgid "Option to display related articles from category/tags."
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:237
-msgid "Page Settings"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:259
-msgid "Select sidebar for whole single page."
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:279
-msgid "Footer Settings"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:297
-msgid "Footer Widget Area"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:298
-msgid "Choose option to display number of columns in footer area."
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:313 footer.php:23
+#: core/admin/inc/panels/footer-panel.php:85 footer.php:23
 msgid "2018 newspaper-lite"
 msgstr ""
 
-#: core/admin/inc/panels/design-panel.php:323
+#: core/admin/inc/panels/footer-panel.php:95
 msgid "Copyright Info"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:333
-msgid "Website Skin"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:351
-msgid "Choose Website Skin"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:352
-msgid "Choose the  skin color for your site."
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:366
-msgid "Title Style"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:367
-msgid "Design option of title style"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:382
-msgid "Title design styles"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:393
-msgid "Title font case"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:394
-msgid "Design of font case style"
-msgstr ""
-
-#: core/admin/inc/panels/design-panel.php:409
-msgid "Title font case styles"
-msgstr ""
-
-#: core/admin/inc/panels/general-panel.php:32
-msgid "General Settings"
-msgstr ""
-
-#: core/admin/inc/panels/general-panel.php:50
-msgid "Theme color"
-msgstr ""
-
-#: core/admin/inc/panels/general-panel.php:65
-msgid "Website Layout"
-msgstr ""
-
-#: core/admin/inc/panels/general-panel.php:66
-msgid "Choose a site to display your website more effectively."
-msgstr ""
-
-#: core/admin/inc/panels/general-panel.php:84
-msgid "Site Layout"
-msgstr ""
-
-#: core/admin/inc/panels/general-panel.php:87
-msgid "Full Width Layout"
 msgstr ""
 
 #: core/admin/inc/panels/header-panel.php:23
 msgid "Header Settings"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:33
-msgid "Top Header Section"
+#: core/admin/inc/panels/header-panel.php:39
+msgid "Ticker Options"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:54
+#: core/admin/inc/panels/header-panel.php:60
 msgid "News Ticker Option"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:55
+#: core/admin/inc/panels/header-panel.php:61
 msgid "Enable/disable news ticker at header."
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:71
+#: core/admin/inc/panels/header-panel.php:77
 #: core/newspaper-lite-functions.php:137
 msgid "Latest"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:81
+#: core/admin/inc/panels/header-panel.php:87
 msgid "News Ticker Caption"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:101
+#: core/admin/inc/panels/header-panel.php:107
 msgid "Show on all page"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:102
+#: core/admin/inc/panels/header-panel.php:108
 msgid "Select yes, if you want to show ticker on all page."
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:128
+#: core/admin/inc/panels/header-panel.php:126
+msgid "Top Header Section"
+msgstr ""
+
+#: core/admin/inc/panels/header-panel.php:148
 msgid "Current Date Option"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:129
+#: core/admin/inc/panels/header-panel.php:149
 msgid "Enable/disable current date from top header."
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:152
+#: core/admin/inc/panels/header-panel.php:172
 msgid "Current Date Format Style Options"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:153
+#: core/admin/inc/panels/header-panel.php:173
 msgid ""
 "Choose available format for date format style. (functions only if current "
 "date option is enabled)"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:156
+#: core/admin/inc/panels/header-panel.php:176
 msgid "Format 1 (dd,mm,yy)"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:157
+#: core/admin/inc/panels/header-panel.php:177
 msgid "Format 2 (dd,yy,mm)"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:158
+#: core/admin/inc/panels/header-panel.php:178
 msgid "Format 3 (yy,mm,dd)"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:180
+#: core/admin/inc/panels/header-panel.php:200
 msgid "Social Icon Option"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:181
+#: core/admin/inc/panels/header-panel.php:201
 msgid "Enable/disable social icons from top header (right)."
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:198
-msgid "Sticky Menu"
+#: core/admin/inc/panels/header-panel.php:225
+msgid "Main Navigation"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:218
+#: core/admin/inc/panels/header-panel.php:245
 msgid "Menu Sticky"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:219
+#: core/admin/inc/panels/header-panel.php:246
 msgid "Enable/disable option for Menu Sticky"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:237
+#: core/admin/inc/panels/header-panel.php:264
 msgid "Banner Ads Section"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:257
+#: core/admin/inc/panels/header-panel.php:284
 msgid "Google Ads"
 msgstr ""
 
-#: core/admin/inc/panels/header-panel.php:258
+#: core/admin/inc/panels/header-panel.php:285
 msgid ""
 "Enable/disable responsive google ad (adsence) on banner. Please enable only "
 "if you want to show responsive google ad on banner ads section."
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:23
+msgid "Theme Options"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:39
+msgid "Website Layout"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:40
+msgid "Choose a site to display your website more effectively."
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:58
+msgid "Site Layout"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:61
+msgid "Full Width Layout"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:72
+msgid "Website Skin"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:90
+msgid "Choose Website Skin"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:91
+msgid "Choose the  skin color for your site."
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:107
+msgid "Title Style"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:108
+msgid "Design option of title style"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:123
+msgid "Title design styles"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:134
+msgid "Title font case"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:135
+msgid "Design of font case style"
+msgstr ""
+
+#: core/admin/inc/panels/options-panel.php:150
+msgid "Title font case styles"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:23
+msgid "Template Options"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:38
+msgid "Archive Settings"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:59
+#: core/admin/inc/panels/template-panel.php:124
+#: core/admin/inc/panels/template-panel.php:265
+msgid "Available Sidebars"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:60
+msgid "Select sidebar for whole site archives, categories, search page etc."
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:85
+msgid "Archive Page Layout"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:86
+msgid "Choose available layout for all archive pages."
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:103
+msgid "Post Settings"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:125
+msgid "Select sidebar for whole single post page."
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:152
+msgid "Author Option"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:153
+msgid "Enable/disable author information at single post page."
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:178
+msgid "Related Articles Option"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:179
+msgid "Enable/disable related articles section at single post page."
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:196
+#: core/newspaper-lite-functions.php:649
+msgid "Related Articles"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:206
+msgid "Section Title"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:225
+msgid "Types of Related Articles"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:226
+msgid "Option to display related articles from category/tags."
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:244
+msgid "Page Settings"
+msgstr ""
+
+#: core/admin/inc/panels/template-panel.php:266
+msgid "Select sidebar for whole single page."
 msgstr ""
 
 #: core/lib/tgm-plugin-activation/class-tgm-plugin-activation.php:327

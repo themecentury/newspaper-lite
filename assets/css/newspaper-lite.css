@@ -2269,6 +2269,7 @@ footer#colophon {
     font-weight: normal; }
     footer#colophon a:hover {
       color: #008987; }
+  footer#colophon .post-content-wrapper .post-content,
   footer#colophon h1, footer#colophon h2, footer#colophon h3, footer#colophon h4, footer#colophon h5, footer#colophon h6 {
     color: inherit; }
   footer#colophon .widget_archive a, footer#colophon .widget_categories a, footer#colophon .widget_meta a, footer#colophon .widget_nav_menu li a, footer#colophon .widget_pages li a, footer#colophon .widget_recent_comments li, footer#colophon .widget_recent_entries a, footer#colophon .widget_rss li {
