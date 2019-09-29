@@ -197,3 +197,19 @@ div[id*="newspaper_lite_post_carousel"].widget h3 {
 	background-color: #fff;
 
 }
+
+#customize-theme-controls .control-section-upsell{
+	display:list-item !important;
+}
+
+.control-section-upsell .button{
+	color:#fff;
+	font-weight:700;
+	background:#f00;
+	border-color:#f00;
+}
+
+.control-section-upsell .button:hover{
+	color:#f00;
+	border-color:#f00;
+}

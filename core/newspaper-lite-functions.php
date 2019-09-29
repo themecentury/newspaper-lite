@@ -53,11 +53,11 @@ function newspaper_lite_scripts()
 
     wp_enqueue_style('newspaper-lite-google-font', add_query_arg($query_args, "https://fonts.googleapis.com/css"));
 
-    wp_enqueue_style('newspaper-lite-style-1', get_template_directory_uri() . '/assets/css/newspaper-lite.css', array(), esc_attr($newspaper_lite_version));
+    wp_enqueue_style('newspaper-lite-style-1', get_template_directory_uri() . '/assets/css/newspaper-lite.min.css', array(), esc_attr($newspaper_lite_version));
 
     wp_enqueue_style('newspaper-lite-style', get_stylesheet_uri(), array(), esc_attr($newspaper_lite_version));
 
-    wp_enqueue_style('newspaper-lite-responsive', get_template_directory_uri() . '/assets/css/newspaper-lite-responsive.css', array(), esc_attr($newspaper_lite_version));
+    wp_enqueue_style('newspaper-lite-responsive', get_template_directory_uri() . '/assets/css/newspaper-lite-responsive.min.css', array(), esc_attr($newspaper_lite_version));
 
     wp_enqueue_script('jquery-bxslider', get_template_directory_uri() . '/assets/lib/bxslider/jquery.bxslider.min.js', array('jquery'), '4.2.12', true);
 

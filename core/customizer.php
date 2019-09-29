@@ -42,6 +42,7 @@ function newspaper_lite_related_articles_option_callback( $control ) {
 /**
  * Load customizer panels
  */
+require get_template_directory() . '/core/admin/inc/upsell/upsell-section.php'; //header settings panel
 require get_template_directory() . '/core/admin/inc/panels/header-panel.php'; //header settings panel
 require get_template_directory() . '/core/admin/inc/panels/template-panel.php'; //Template settings panel
 require get_template_directory() . '/core/admin/inc/panels/options-panel.php'; //Options settings panel
