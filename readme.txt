@@ -3,9 +3,9 @@ Contributors:       themecentury
 Requires at least:  WordPress 4.0
 Tested up to:       WordPress 5.2.3
 Donate link:        https://themecentury.com/
-Version:            1.0.5
+Version:            1.0.6
 Requires PHP:       5.3
-Stable tag:         1.0.5
+Stable tag:         1.0.6
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support, custom-background, threaded-comments, custom-menu, custom-logo, post-formats, editor-style
