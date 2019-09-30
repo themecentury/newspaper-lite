@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themecentury@gmail.com\n"
-"POT-Creation-Date: 2019-09-29 18:17:03+00:00\n"
+"POT-Creation-Date: 2019-09-29 19:52:24+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -94,7 +94,9 @@ msgid "Get started with Newspaper_Lite"
 msgstr ""
 
 #: core/admin/class-newspaper-lite-admin.php:123
-msgid "%s"
+#: core/admin/inc/panels/color-panel.php:86
+#. translators: %s: category namet
+msgid " %s"
 msgstr ""
 
 #: core/admin/class-newspaper-lite-admin.php:137
@@ -513,7 +515,7 @@ msgstr ""
 
 #: core/admin/inc/newspaper-lite-sanitize.php:154
 #: core/admin/inc/panels/options-panel.php:94
-#: core/newspaper-lite-functions.php:757 core/newspaper-lite-functions.php:770
+#: core/newspaper-lite-functions.php:759 core/newspaper-lite-functions.php:772
 msgid "Default"
 msgstr ""
 
@@ -626,11 +628,6 @@ msgstr ""
 msgid "Categories Color"
 msgstr ""
 
-#: core/admin/inc/panels/color-panel.php:86
-#. translators: %s: category namet
-msgid " %s"
-msgstr ""
-
 #: core/admin/inc/panels/footer-panel.php:23
 msgid "Footer Options"
 msgstr ""
@@ -676,7 +673,7 @@ msgid "Enable/disable news ticker at header."
 msgstr ""
 
 #: core/admin/inc/panels/header-panel.php:77
-#: core/newspaper-lite-functions.php:137
+#: core/newspaper-lite-functions.php:139
 msgid "Latest"
 msgstr ""
 
@@ -867,7 +864,7 @@ msgid "Enable/disable related articles section at single post page."
 msgstr ""
 
 #: core/admin/inc/panels/template-panel.php:196
-#: core/newspaper-lite-functions.php:649
+#: core/newspaper-lite-functions.php:651
 msgid "Related Articles"
 msgstr ""
 
@@ -1268,83 +1265,83 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:196
+#: core/newspaper-lite-functions.php:198
 msgid "Select Category"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:209
+#: core/newspaper-lite-functions.php:211
 msgid "Select Tags"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:221
+#: core/newspaper-lite-functions.php:223
 msgid "Category in - All post from either or selected category"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:222
+#: core/newspaper-lite-functions.php:224
 msgid "Category and - All post that must have all selected category"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:223
+#: core/newspaper-lite-functions.php:225
 msgid "Category not in - All posts except selected category"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:233
+#: core/newspaper-lite-functions.php:235
 msgid "Tag in - All post from either or selected tag"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:234
+#: core/newspaper-lite-functions.php:236
 msgid "Tag and - All post that must have all selected tag"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:235
+#: core/newspaper-lite-functions.php:237
 msgid "Tag not in - All posts except selected tag"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:251
+#: core/newspaper-lite-functions.php:253
 msgid "Left Slider"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:252
+#: core/newspaper-lite-functions.php:254
 msgid "Right Slider"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:253
+#: core/newspaper-lite-functions.php:255
 msgid "Slider Only"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:260
+#: core/newspaper-lite-functions.php:262
 msgid "Select No. of Columns"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:261
+#: core/newspaper-lite-functions.php:263
 msgid "2 Columns"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:262
+#: core/newspaper-lite-functions.php:264
 msgid "3 Columns"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:263
+#: core/newspaper-lite-functions.php:265
 msgid "4 Columns"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:758
+#: core/newspaper-lite-functions.php:760
 msgid "Line Style"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:759
+#: core/newspaper-lite-functions.php:761
 msgid "Plain Style"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:771
+#: core/newspaper-lite-functions.php:773
 msgid "Uppercase"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:772
+#: core/newspaper-lite-functions.php:774
 msgid "Lowercase"
 msgstr ""
 
-#: core/newspaper-lite-functions.php:773
+#: core/newspaper-lite-functions.php:775
 msgid "Capitalize"
 msgstr ""
 
