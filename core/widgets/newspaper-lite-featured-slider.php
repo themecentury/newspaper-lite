@@ -135,8 +135,8 @@ class Newspaper_Lite_Featured_Slider extends WP_Widget
 
         );
 
-        return $fields;
-    }
+return $fields;
+}
 
     /**
      * Front-end display of widget.
@@ -200,7 +200,7 @@ class Newspaper_Lite_Featured_Slider extends WP_Widget
                                     <div class="slider-content-wrapper">
 
                                         <h3 class="slide-title"><a
-                                                    href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                            href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                         </h3>
                                         <div class="post-meta-wrapper">
                                             <?php newspaper_lite_posted_on(); ?>
@@ -247,7 +247,7 @@ class Newspaper_Lite_Featured_Slider extends WP_Widget
                                         <div class="featured-content-wrapper">
 
                                             <h3 class="featured-title"><a
-                                                        href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                                href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                             </h3>
                                             <div class="post-meta-wrapper"> <?php newspaper_lite_posted_on(); ?> </div>
                                             <?php do_action('newspaper_lite_post_categories'); ?>
@@ -284,94 +284,94 @@ class Newspaper_Lite_Featured_Slider extends WP_Widget
                                             ?>
                                             <li>
                                                 <a href="<?php the_permalink(); ?>"
-                                                   title="<?php the_title_attribute(); ?>">
-                                                    <?php
-                                                    $thumbnail_size = 'newspaper-lite-slider-large';
-                                                    if ($newspaper_lite_slider_layout == 'slider_only') {
-                                                        $thumbnail_size = 'full';
-                                                    }
-                                                    ?>
-                                                    <figure><?php the_post_thumbnail($thumbnail_size); ?></figure>
-                                                </a>
-                                                <div class="slider-content-wrapper">
+                                                 title="<?php the_title_attribute(); ?>">
+                                                 <?php
+                                                 $thumbnail_size = 'newspaper-lite-slider-large';
+                                                 if ($newspaper_lite_slider_layout == 'slider_only') {
+                                                    $thumbnail_size = 'full';
+                                                }
+                                                ?>
+                                                <figure><?php the_post_thumbnail($thumbnail_size); ?></figure>
+                                            </a>
+                                            <div class="slider-content-wrapper">
 
-                                                    <h3 class="slide-title"><a
-                                                                href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                                                    </h3>
-                                                    <div class="post-meta-wrapper">
-                                                        <?php newspaper_lite_posted_on(); ?>
-                                                        <?php newspaper_lite_post_comment(); ?>
-                                                    </div>
-                                                    <?php do_action('newspaper_lite_post_categories'); ?>
-                                                </div><!-- .post-meta-wrapper -->
-                                            </li>
-                                            <?php
-                                        }
-                                        echo '</ul>';
+                                                <h3 class="slide-title"><a
+                                                    href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                                </h3>
+                                                <div class="post-meta-wrapper">
+                                                    <?php newspaper_lite_posted_on(); ?>
+                                                    <?php newspaper_lite_post_comment(); ?>
+                                                </div>
+                                                <?php do_action('newspaper_lite_post_categories'); ?>
+                                            </div><!-- .post-meta-wrapper -->
+                                        </li>
+                                        <?php
                                     }
-                                    wp_reset_postdata();
-                                    ?>
-                                </div><!-- .mgs-slider-section -->
-                            </div><!-- .mgs-featured-slider-wrapper -->
-                            <?php
-                        }
-                        wp_reset_postdata();
-                        ?>
-
+                                    echo '</ul>';
+                                }
+                                wp_reset_postdata();
+                                ?>
+                            </div><!-- .mgs-slider-section -->
+                        </div><!-- .mgs-featured-slider-wrapper -->
                         <?php
+                    }
+                    wp_reset_postdata();
+                    ?>
+
+                    <?php
+                    $number_of_right_posts = 2;
+                    $right_thumbnail_size = 'newspaper-lite-featured-medium';
+
+                    if ($newspaper_lite_slider_layout === 'left' || empty($newspaper_lite_slider_layout)) {
                         $number_of_right_posts = 2;
                         $right_thumbnail_size = 'newspaper-lite-featured-medium';
+                    }
 
-                        if ($newspaper_lite_slider_layout === 'left' || empty($newspaper_lite_slider_layout)) {
-                            $number_of_right_posts = 2;
-                            $right_thumbnail_size = 'newspaper-lite-featured-medium';
-                        }
-
-                        $featured_right_args = newspaper_lite_query_args($newspaper_lite_featured_category_id, $number_of_right_posts, $newspaper_lite_feature_slider_category_parameter, $newspaper_lite_feature_slider_tag_id, $newspaper_lite_feature_slider_tags_parameter);
-                        $featured_right_args['offset'] = $number_of_left_posts;
-                        $featured_right_args['meta_query'] = array(
-                            array(
-                                'key' => '_thumbnail_id'
-                            )
-                        );
-                        $featured_right_query = new WP_Query($featured_right_args);
-                        if ($featured_right_query->have_posts()) {
-                            while ($featured_right_query->have_posts()) {
-                                $featured_right_query->the_post();
-                                $post_id = get_the_ID();
-                                $image_path = get_the_post_thumbnail($post_id, $right_thumbnail_size);
-                                ?>
-                                <div class="single-featured-wrap">
-                                    <div class="single-slide">
-                                        <div class="mg-post-thumb">
-                                            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-                                                <figure><?php echo $image_path; ?></figure>
-                                            </a>
-                                        </div>
-                                        <div class="featured-content-wrapper">
-
-                                            <h3 class="featured-title"><a
-                                                        href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                                            </h3>
-                                            <div class="post-meta-wrapper"> <?php newspaper_lite_posted_on(); ?> </div>
-                                            <?php do_action('newspaper_lite_post_categories'); ?>
-                                        </div><!-- .post-meta-wrapper -->
+                    $featured_right_args = newspaper_lite_query_args($newspaper_lite_featured_category_id, $number_of_right_posts, $newspaper_lite_feature_slider_category_parameter, $newspaper_lite_feature_slider_tag_id, $newspaper_lite_feature_slider_tags_parameter);
+                    $featured_right_args['offset'] = $number_of_left_posts;
+                    $featured_right_args['meta_query'] = array(
+                        array(
+                            'key' => '_thumbnail_id'
+                        )
+                    );
+                    $featured_right_query = new WP_Query($featured_right_args);
+                    if ($featured_right_query->have_posts()) {
+                        while ($featured_right_query->have_posts()) {
+                            $featured_right_query->the_post();
+                            $post_id = get_the_ID();
+                            $image_path = get_the_post_thumbnail($post_id, $right_thumbnail_size);
+                            ?>
+                            <div class="single-featured-wrap">
+                                <div class="single-slide">
+                                    <div class="mg-post-thumb">
+                                        <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+                                            <figure><?php echo $image_path; ?></figure>
+                                        </a>
                                     </div>
-                                </div><!-- .single-featured-wrap -->
-                                <?php
-                            }
-                        }
-                        ?>
+                                    <div class="featured-content-wrapper">
 
-                    </div>
+                                        <h3 class="featured-title"><a
+                                            href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                        </h3>
+                                        <div class="post-meta-wrapper"> <?php newspaper_lite_posted_on(); ?> </div>
+                                        <?php do_action('newspaper_lite_post_categories'); ?>
+                                    </div><!-- .post-meta-wrapper -->
+                                </div>
+                            </div><!-- .single-featured-wrap -->
+                            <?php
+                        }
+                    }
+                    ?>
 
                 </div>
-            <?php } ?>
 
-        </div>
-        <?php
-        echo $after_widget;
-    }
+            </div>
+        <?php } ?>
+
+    </div>
+    <?php
+    echo $after_widget;
+}
 
     /**
      * Sanitize widget form values as they are saved.
@@ -422,8 +422,9 @@ class Newspaper_Lite_Featured_Slider extends WP_Widget
 
             // Make array elements available as variables
             extract($widget_field);
-            $newspaper_lite_widgets_field_value = !empty($instance[$newspaper_lite_widgets_name]) ? wp_kses_post($instance[$newspaper_lite_widgets_name]) : '';
+            $newspaper_lite_widgets_field_value = (isset($instance[$newspaper_lite_widgets_name])) ? $instance[$newspaper_lite_widgets_name] : '';
             newspaper_lite_widgets_show_widget_field($this, $widget_field, $newspaper_lite_widgets_field_value);
+
         }
     }
 

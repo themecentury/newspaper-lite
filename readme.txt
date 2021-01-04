@@ -1,11 +1,11 @@
 === Newspaper Lite ===
 Contributors:       themecentury
 Requires at least:  WordPress 4.0
-Tested up to:       WordPress 5.2.3
+Tested up to:       5.6
 Donate link:        https://themecentury.com/
-Version:            1.0.6
+Version:            1.0.7
 Requires PHP:       5.3
-Stable tag:         1.0.6
+Stable tag:         1.0.7
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 Tags:               news, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, rtl-language-support, custom-background, threaded-comments, custom-menu, custom-logo, post-formats, editor-style
@@ -39,7 +39,7 @@ If you've translated this theme into your language, feel free to send the transl
 * Yes theme theme support RTL language. You can check our RTL demo on official website
 
 == Screenshots ==
-    
+
 1. https://pxhere.com/en/photo/762358 - Licenses: CCO Public Domain
 2. https://pxhere.com/en/photo/927411 - Licenses: CCO Public Domain
 3. https://pxhere.com/en/photo/2032 - Licenses: CCO Public Domain
@@ -72,10 +72,10 @@ GNU General Public License for more details.
 
 Newspaper Lite bundles the following third-party resources:
 
-    Newspaper Lite WordPress Theme is Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+Newspaper Lite WordPress Theme is Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
 
-    Other custom js files are our own creation and is licensed under the same license as this theme.
-    Other custom images are our own creation and is licensed under the same license as this theme.
+Other custom js files are our own creation and is licensed under the same license as this theme.
+Other custom images are our own creation and is licensed under the same license as this theme.
 
 == THEME USAGE ==
 
@@ -89,31 +89,38 @@ Get free support at https://themecentury.com/forums/forum/newspaper-lite-free-wo
 All available options can be used from Appearance->Customize
 
 == Changelog ==
+
+= 1.0.7 - 2020/01/04 =
+* Fixed: Capitalize Issue Fixed
+* Fixed: Slider issue fixed on disable js
+* Fixed: Error fixed on widgets.php
+* Improvements: No of posts visibility on cateogry dropdown
+
 = 1.0.6 - 2019/09/30 =
-    * Fixed: RTL issue fixed
-    * Fixed: Feature slider click issue on chrome
-    * Update: Screenshot Update with new pxhere with license
+* Fixed: RTL issue fixed
+* Fixed: Feature slider click issue on chrome
+* Update: Screenshot Update with new pxhere with license
 
 = 1.0.5 - 2019/06/25 =
-    * Update: Theme Changed related to Theme Century
-    * Update: Optimized All Settings to User experience
+* Update: Theme Changed related to Theme Century
+* Update: Optimized All Settings to User experience
 
 = 1.0.4 - 2019/03/19 =
-    * Notice: Acquire theme from mirrorgrid
-    * Update: All mirrorgrid links changed 
+* Notice: Acquire theme from mirrorgrid
+* Update: All mirrorgrid links changed 
 
 = 1.0.3 - 2018/12/31 =
-    * Added: About us added
-    * Update: Date format for news ticker added
-    * Fixed: minor design issue fixed
+* Added: About us added
+* Update: Date format for news ticker added
+* Fixed: minor design issue fixed
 
 = 1.0.2 - 2018/11/30 =
-    * Update: Tag updated
+* Update: Tag updated
 
 = 1.0.1 - 2018/10/11 =
-    * Update: Screenshot change
-    * Update: one tag added
-    * Update: readme modify
+* Update: Screenshot change
+* Update: one tag added
+* Update: readme modify
 
 = 1.0.0 - 2018/08/19 =
-    * Initial released
+* Initial released

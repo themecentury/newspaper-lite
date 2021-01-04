@@ -137,20 +137,20 @@ class Newspaper_Lite_Block_Layout extends WP_widget {
 			<?php
 			switch ( $newspaper_lite_block_layout ) {
 				case 'layout2':
-					$this->newspaper_lite_block_layout_2( $newspaper_lite_block_layout, $newspaper_lite_block_cat_id, $newspaper_lite_block_posts_count, $newspaper_lite_block_category_parameter, $newspaper_lite_block_tags, $newspaper_lite_block_tags_parameter );
-					break;
+				$this->newspaper_lite_block_layout_2( $newspaper_lite_block_layout, $newspaper_lite_block_cat_id, $newspaper_lite_block_posts_count, $newspaper_lite_block_category_parameter, $newspaper_lite_block_tags, $newspaper_lite_block_tags_parameter );
+				break;
 
 				case 'layout3':
-					$this->newspaper_lite_block_layout_3( $newspaper_lite_block_layout, $newspaper_lite_block_cat_id, $newspaper_lite_block_posts_count, $newspaper_lite_block_category_parameter, $newspaper_lite_block_tags, $newspaper_lite_block_tags_parameter );
-					break;
+				$this->newspaper_lite_block_layout_3( $newspaper_lite_block_layout, $newspaper_lite_block_cat_id, $newspaper_lite_block_posts_count, $newspaper_lite_block_category_parameter, $newspaper_lite_block_tags, $newspaper_lite_block_tags_parameter );
+				break;
 
 				case 'layout4':
-					$this->newspaper_lite_block_layout_4( $newspaper_lite_block_layout, $newspaper_lite_block_cat_id, $newspaper_lite_block_posts_count, $newspaper_lite_block_category_parameter, $newspaper_lite_block_tags, $newspaper_lite_block_tags_parameter );
-					break;
+				$this->newspaper_lite_block_layout_4( $newspaper_lite_block_layout, $newspaper_lite_block_cat_id, $newspaper_lite_block_posts_count, $newspaper_lite_block_category_parameter, $newspaper_lite_block_tags, $newspaper_lite_block_tags_parameter );
+				break;
 
 				default:
-					$this->newspaper_lite_block_layout_default( $newspaper_lite_block_layout, $newspaper_lite_block_cat_id, $newspaper_lite_block_posts_count, $newspaper_lite_block_category_parameter, $newspaper_lite_block_tags, $newspaper_lite_block_tags_parameter );
-					break;
+				$this->newspaper_lite_block_layout_default( $newspaper_lite_block_layout, $newspaper_lite_block_cat_id, $newspaper_lite_block_posts_count, $newspaper_lite_block_category_parameter, $newspaper_lite_block_tags, $newspaper_lite_block_tags_parameter );
+				break;
 			}
 			?>
 
@@ -365,7 +365,7 @@ class Newspaper_Lite_Block_Layout extends WP_widget {
 
 					<div class="single-post-wrapper clearfix <?php echo esc_attr( $post_class ); ?>">
 						<?php
- 						if ( $post_count % 3 == 1 || wp_is_mobile() ) { ?>
+						if ( $post_count % 3 == 1 || wp_is_mobile() ) { ?>
 							<div class="post-thumb-wrapper">
 								<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 									<figure><?php echo $image_path; ?></figure>
@@ -479,7 +479,7 @@ class Newspaper_Lite_Block_Layout extends WP_widget {
 
 			// Make array elements available as variables
 			extract( $widget_field );
-			$newspaper_lite_widgets_field_value = ! empty( $instance[ $newspaper_lite_widgets_name ] ) ? wp_kses_post( $instance[ $newspaper_lite_widgets_name ] ) : '';
+			$newspaper_lite_widgets_field_value = (isset($instance[$newspaper_lite_widgets_name])) ? $instance[$newspaper_lite_widgets_name] : '';
 			newspaper_lite_widgets_show_widget_field( $this, $widget_field, $newspaper_lite_widgets_field_value );
 		}
 	}

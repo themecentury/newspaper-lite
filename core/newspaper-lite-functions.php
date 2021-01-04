@@ -106,15 +106,15 @@ if (!function_exists('newspaper_lite_current_date_hook')):
                 $date_format_option = get_theme_mod( 'newspaper_lite_date_format_option', 'l, F d, Y');
                 switch($date_format_option) {
                     case 'l, F d, Y':
-                        echo esc_html( date_i18n( 'l, F d, Y' ) );
-                        break;
+                    echo esc_html( date_i18n( 'l, F d, Y' ) );
+                    break;
 
                     case 'l, Y, F d':
-                        echo esc_html( date_i18n( 'l, Y, F d' ) );
-                        break;
+                    echo esc_html( date_i18n( 'l, Y, F d' ) );
+                    break;
 
                     default:
-                        echo esc_html( date_i18n( 'Y, F d, l' ) );
+                    echo esc_html( date_i18n( 'Y, F d, l' ) );
                 } ?>
             </div>
             <?php
@@ -197,7 +197,7 @@ if (!function_exists('newspaper_lite_category_dropdown')) :
         $newspaper_lite_categories = get_categories(array('hide_empty' => 0));
         $newspaper_lite_category_dropdown['0'] = esc_html__('Select Category', 'newspaper-lite');
         foreach ($newspaper_lite_categories as $newspaper_lite_category) {
-            $newspaper_lite_category_dropdown[$newspaper_lite_category->term_id] = $newspaper_lite_category->cat_name;
+            $newspaper_lite_category_dropdown[$newspaper_lite_category->term_id] = $newspaper_lite_category->cat_name .' ('.$newspaper_lite_category->category_count.')';
         }
 
         return $newspaper_lite_category_dropdown;
@@ -397,17 +397,17 @@ if (!function_exists('newspaper_lite_post_categories_hook')):
                     $cat_link = get_category_link($cat_id);
                     ?>
                     <span class="category-button mgs-cat-<?php echo esc_attr($cat_id); ?>"><a
-                                href="<?php echo esc_url($cat_link); ?>"><?php echo esc_html($cat_name); ?></a></span>
-                    <?php
-                }
-                ?>
-            </div>
-            <?php
+                        href="<?php echo esc_url($cat_link); ?>"><?php echo esc_html($cat_name); ?></a></span>
+                        <?php
+                    }
+                    ?>
+                </div>
+                <?php
+            }
         }
-    }
-endif;
+    endif;
 
-/*------------------------------------------------------------------------------------------------*/
+    /*------------------------------------------------------------------------------------------------*/
 /**
  * widget posts excerpt in words
  */
@@ -624,22 +624,22 @@ if (!function_exists('newspaper_lite_author_box_hook')):
             <div class="newspaper-lite-author-wrapper clearfix">
                 <div class="author-avatar">
                     <a class="author-image"
-                       href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo $author_avatar; ?></a>
+                    href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo $author_avatar; ?></a>
                 </div><!-- .author-avatar -->
                 <div class="author-desc-wrapper">
                     <a class="author-title"
-                       href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo esc_html($author_nickname); ?></a>
+                    href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo esc_html($author_nickname); ?></a>
                     <div class="author-description"><?php echo get_the_author_meta('description'); ?></div>
                     <a href="<?php echo esc_url(get_the_author_meta('user_url')); ?>"
-                       target="_blank"><?php echo esc_url(get_the_author_meta('user_url')); ?></a>
-                </div><!-- .author-desc-wrapper-->
-            </div><!--newspaper-lite-author-wrapper-->
-            <?php
-        }
-    }
-endif;
+                     target="_blank"><?php echo esc_url(get_the_author_meta('user_url')); ?></a>
+                 </div><!-- .author-desc-wrapper-->
+             </div><!--newspaper-lite-author-wrapper-->
+             <?php
+         }
+     }
+ endif;
 
-/*------------------------------------------------------------------------------------------------*/
+ /*------------------------------------------------------------------------------------------------*/
 /**
  * Related articles
  */
@@ -755,11 +755,11 @@ if (!function_exists('newspaper_lite_site_title_design')) {
     function newspaper_lite_site_title_design()
     {
         return
-            array(
-                'default' => __('Default', 'newspaper-lite'),
-                'line' => __('Line Style', 'newspaper-lite'),
-                'plain' => __('Plain Style', 'newspaper-lite')
-            );
+        array(
+            'default' => __('Default', 'newspaper-lite'),
+            'line' => __('Line Style', 'newspaper-lite'),
+            'plain' => __('Plain Style', 'newspaper-lite')
+        );
     }
 }
 
@@ -768,11 +768,11 @@ if (!function_exists('newspaper_lite_site_title_design_case')) {
     function newspaper_lite_site_title_design_case()
     {
         return
-            array(
-                'none' => __('Default', 'newspaper-lite'),
-                'uppercase' => __('Uppercase', 'newspaper-lite'),
-                'lowercase' => __('Lowercase', 'newspaper-lite'),
-                'capitalize' => __('Capitalize', 'newspaper-lite')
-            );
+        array(
+            'none' => __('Default', 'newspaper-lite'),
+            'uppercase' => __('Uppercase', 'newspaper-lite'),
+            'lowercase' => __('Lowercase', 'newspaper-lite'),
+            'capitalize' => __('Capitalize', 'newspaper-lite')
+        );
     }
 }

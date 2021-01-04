@@ -73,7 +73,7 @@
 				var newspaper_lite_carousel_args = {
 					navigation: true, // Show next and prev buttons
 					slideSpeed: 300,
-					paginationSpeed: 400,
+					paginationSpeed: 500,
 					singleItem: true,
 					mouseDrag: false,
 					touchDrag: true,

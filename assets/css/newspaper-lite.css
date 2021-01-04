@@ -583,8 +583,7 @@ h1.entry-title {
   color: #353535;
   font-weight: 700;
   margin-bottom: 0;
-  padding-bottom: 0;
-  text-transform: capitalize; }
+  padding-bottom: 0; }
   h1.entry-title a {
     color: #3d3d3d; }
 
@@ -1520,7 +1519,6 @@ SLIDER CSS
   color: #fff;
   display: inline-block;
   margin: 0 5px 2px 0;
-  text-transform: capitalize;
   font-size: 12px;
   padding: 0 6px;
   border-radius: 0px; }
@@ -1620,6 +1618,12 @@ footer#colophon .newspaper-lite-carousel h3 a {
   background: #f9f9f9;
   padding: 10px;
   border: 1px solid #e1e1e1; }
+  .newspaper-lite-carousel:not(.owl-loaded) {
+    display: block; }
+  .newspaper-lite-carousel > .item {
+    display: none; }
+    .newspaper-lite-carousel > .item:first-child {
+      display: block; }
   .newspaper-lite-carousel .owl-stage {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1647,7 +1651,6 @@ footer#colophon .newspaper-lite-carousel h3 a {
     padding: 10px 10px 0; }
     .newspaper-lite-carousel .item .carousel-content-wrapper .post-cat-list a {
       color: #fff;
-      text-transform: capitalize;
       display: inline-block;
       margin: 0 5px 2px 0;
       font-size: 12px;
@@ -1732,53 +1735,53 @@ footer#colophon .newspaper-lite-carousel h3 a {
 
 !*carousel*!
 .carousel-image-wrap {
-	overflow: hidden;
+overflow: hidden;
 }
 
 .carousel-title {
-	margin: 0px;
-	padding: 10px 0 0;
-	line-height: 1em;
-	a {
-		display: inline-block;
-		line-height: 1.4em;
-		color: rgb(51, 51, 51);
-		font-size: 15px;
-	}
+margin: 0px;
+padding: 10px 0 0;
+line-height: 1em;
+a {
+display: inline-block;
+line-height: 1.4em;
+color: rgb(51, 51, 51);
+font-size: 15px;
+}
 }
 
 .bx-default-pager {
-	text-align: center;
-	margin-top: 10px;
-	.bx-pager-item {
-		display: inline-block;
-		a {
-			padding: 0 10px;
-			line-height: 1.5em;
-			display: block;
-			margin: 0 5px;
-			border: 1px solid rgb(51, 51, 51);
-			&.active {
-				border: 1px solid rgb(64, 140, 64);
-			}
-		}
-	}
+text-align: center;
+margin-top: 10px;
+.bx-pager-item {
+display: inline-block;
+a {
+padding: 0 10px;
+line-height: 1.5em;
+display: block;
+margin: 0 5px;
+border: 1px solid rgb(51, 51, 51);
+&.active {
+border: 1px solid rgb(64, 140, 64);
+}
+}
+}
 }
 
 .mgs-before-carousel-js-load {
-	max-height: 332px;
-	background: #f9f9f9;
-	border: 1px solid #e1e1e1;
-	overflow: hidden;
-	min-height: 332px;
-	ul {
+max-height: 332px;
+background: #f9f9f9;
+border: 1px solid #e1e1e1;
+overflow: hidden;
+min-height: 332px;
+ul {
 
-		display: none;
-	}
-	.bx-wrapper {
+display: none;
+}
+.bx-wrapper {
 
-		display: none;
-	}
+display: none;
+}
 }
 */
 /*--------------------------------------------------------------
@@ -2542,8 +2545,7 @@ Author css
       display: block;
       font-size: 18px;
       font-weight: 700;
-      margin-bottom: 10px;
-      text-transform: capitalize; }
+      margin-bottom: 10px; }
 
 /*--------------------------------------------------------------
 scroll to top css

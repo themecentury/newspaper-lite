@@ -4,7 +4,9 @@ Theme URI:      https://themecentury.com/downloads/newspaper-lite-free-wordpress
 Author:         themecentury
 Author URI:     https://themecentury.com/
 Description:    Newspaper Lite is a  responsive newsportal style Free WordPress theme and this theme is mainly applicable for online magazines, newspaper, publishing, personal blogs and any kind of news sites. Widget base home page, multiple widget area, header layout, footer layout, Multiple layout of widget and many more. Please check demo on https://demo.themecentury.com/wpthemes/newspaper-lite/ and check https://docs.themecentury.com/products/newspaper-lite/ for docs.
-Version:        1.0.6
+Version:        1.0.7
+Tested up to: 	5.6
+Requires PHP: 	5.3
 License:        GNU General Public License v3 or later
 License URI:    http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain:    newspaper-lite
@@ -17,7 +19,7 @@ Underscores is distributed under the terms of the GNU GPL v3 or later.
 */
 
 /*=============================================================================================
- * --------------------------- Please do not write any code here ----------------------------- */
+* --------------------------- Please do not write any code here ----------------------------- */
 /*=============================================================================================*/
 /*
  * Note: Please go to Appreance >> Customize >> Additional Code >> Additional CSS and Write css code there.
