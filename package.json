@@ -1,6 +1,6 @@
 {
   "name": "newspaper-lite",
-  "title": "NewsPaper Lite",
+  "title": "NewsPaperLite",
   "version": "1.0.0",
   "homepage": "https://themecentury.com/downloads/newspaper-lite-free-wordpress-theme",
   "repository": {
@@ -12,11 +12,11 @@
   "devDependencies": {
     "autoprefixer": "^7.2.6",
     "connect-livereload": "^0.6.0",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.4",
     "grunt-browser-sync": "^2.2.0",
     "grunt-checktextdomain": "^1.0.1",
     "grunt-contrib-clean": "^1.1.0",
-    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-compress": "^1.6.0",
     "grunt-contrib-concat": "~1.0.1",
     "grunt-contrib-cssmin": "^2.2.0",
     "grunt-contrib-jshint": "^1.1.0",

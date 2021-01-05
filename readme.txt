@@ -90,7 +90,7 @@ All available options can be used from Appearance->Customize
 
 == Changelog ==
 
-= 1.0.7 - 2020/01/04 =
+= 1.0.7 - 2020/01/06 =
 * Fixed: Capitalize Issue Fixed
 * Fixed: Slider issue fixed on disable js
 * Fixed: Error fixed on widgets.php

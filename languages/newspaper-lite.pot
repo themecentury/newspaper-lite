@@ -1,14 +1,14 @@
-# Copyright (C) 2019
+# Copyright (C) 2021
 # This file is distributed under the same license as the  package.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: themecentury@gmail.com\n"
-"POT-Creation-Date: 2019-09-29 19:52:24+00:00\n"
+"POT-Creation-Date: 2021-01-05 20:03:48+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Theme Century <themecentury@gmail.com>\n"
 "Language-Team: Theme Century <themecentury@gmail.com>\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
@@ -1255,13 +1255,13 @@ msgid "Return to Required Plugins Installer"
 msgstr ""
 
 #: core/newspaper-lite-functions.php:29
-#: core/widgets/newspaper-lite-widget-fields.php:228
+#: core/widgets/newspaper-lite-widget-fields.php:213
 msgid "Upload"
 msgstr ""
 
 #: core/newspaper-lite-functions.php:30
-#: core/widgets/newspaper-lite-widget-fields.php:230
-#: core/widgets/newspaper-lite-widget-fields.php:239
+#: core/widgets/newspaper-lite-widget-fields.php:215
+#: core/widgets/newspaper-lite-widget-fields.php:224
 msgid "Remove"
 msgstr ""
 
@@ -1557,23 +1557,23 @@ msgstr ""
 msgid "Posts Type"
 msgstr ""
 
-#: core/widgets/newspaper-lite-widget-fields.php:183
+#: core/widgets/newspaper-lite-widget-fields.php:169
 msgid "Widget Layout"
 msgstr ""
 
-#: core/widgets/newspaper-lite-widget-fields.php:225
+#: core/widgets/newspaper-lite-widget-fields.php:210
 msgid "No file chosen"
 msgstr ""
 
-#: core/widgets/newspaper-lite-widget-fields.php:233
+#: core/widgets/newspaper-lite-widget-fields.php:218
 msgid "Upgrade your version of WordPress for full media support."
 msgstr ""
 
-#: core/widgets/newspaper-lite-widget-fields.php:242
+#: core/widgets/newspaper-lite-widget-fields.php:227
 msgid "Upload image"
 msgstr ""
 
-#: core/widgets/newspaper-lite-widget-fields.php:253
+#: core/widgets/newspaper-lite-widget-fields.php:238
 msgid "View File"
 msgstr ""
 
@@ -1682,7 +1682,7 @@ msgstr ""
 msgid "Footer Menu"
 msgstr ""
 
-#: header.php:28
+#: header.php:29
 msgid "Skip to content"
 msgstr ""
 

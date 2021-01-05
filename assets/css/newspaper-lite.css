@@ -1626,7 +1626,6 @@ footer#colophon .newspaper-lite-carousel h3 a {
       display: block; }
   .newspaper-lite-carousel .owl-stage {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
@@ -2880,4 +2879,3 @@ body.dark_skin footer#colophon {
 
 body.dark_skin .widget_calendar {
   color: #fff; }
-/*# sourceMappingURL=newspaper-lite.css.map */

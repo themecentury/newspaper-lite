@@ -16,11 +16,11 @@ module.exports = function (grunt) {
                 jshintrc: '.jshintrc'
             },
             all: [
-                '!Gruntfile.js',
-                '<%= dirs.js %>/*.js',
-                '!<%= dirs.js %>/*.min.js',
-                '<%= dirs.js %>/*.js',
-                '!<%= dirs.js %>/*.min.js'
+            '!Gruntfile.js',
+            '<%= dirs.js %>/*.js',
+            '!<%= dirs.js %>/*.min.js',
+            '<%= dirs.js %>/*.js',
+            '!<%= dirs.js %>/*.min.js'
             ]
         },
 
@@ -30,7 +30,7 @@ module.exports = function (grunt) {
                 stylelintrc: '.stylelintrc'
             },
             all: [
-                '<%= dirs.scss %>/*.scss'
+            '<%= dirs.scss %>/*.scss'
             ]
         },
 
@@ -53,8 +53,8 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: '<%= dirs.js %>/',
                     src: [
-                        '*.js',
-                        '!*.min.js'
+                    '*.js',
+                    '!*.min.js'
                     ],
                     dest: '<%= dirs.js %>/',
                     ext: '.min.js'
@@ -65,10 +65,10 @@ module.exports = function (grunt) {
         // Compile all .scss files.
         sass: {
             options: {
-                sourceMap: true,
+                sourceMap: false,
                 // check:false,
-                // unix_newlines: true,
-                // sourceMapFileInline: true,
+                unix_newlines: true,
+                sourceMapFileInline: false,
             },
             dist: {
                 files: [{
@@ -85,8 +85,7 @@ module.exports = function (grunt) {
         rtlcss: {
             generate: {
                 options: {
-                    map: true,
-                    //map: {inline:false},
+                    map:false,
                 },
                 expand: true,
                 cwd: '<%= dirs.css %>',
@@ -99,7 +98,7 @@ module.exports = function (grunt) {
         // Minify all .css files.
         cssmin: {
             options:{
-                sourceMap: true,
+                sourceMap: false,
             },
             minify: {
                 expand: true,
@@ -121,16 +120,17 @@ module.exports = function (grunt) {
         watch: {
             css: {
                 files: [
-                    '<%= dirs.scss %>/*.scss',
-                    '<%= dirs.scss %>/**/*.scss'
+                '<%= dirs.scss %>/*.scss',
+                '<%= dirs.scss %>/**/*.scss'
 
                 ],
+                
                 tasks: ['sass', 'postcss', 'cssmin', 'rtlcss'],
             },
             js: {
                 files: [
-                    '<%= dirs.js %>/*.js',
-                    '<%= dirs.js %>/!*.min.js'
+                '<%= dirs.js %>/*.js',
+                '<%= dirs.js %>/!*.min.js'
                 ],
                 tasks: [/*'jshint',*/ 'uglify']
             }
@@ -153,7 +153,7 @@ module.exports = function (grunt) {
                 options: {
                     potFilename: 'newspaper-lite.pot',
                     exclude: [
-                        'vendor/.*'
+                    'vendor/.*'
                     ],
 
                 }
@@ -165,20 +165,20 @@ module.exports = function (grunt) {
             options: {
                 text_domain: 'newspaper-lite',
                 keywords: [
-                    '__:1,2d',
-                    '_e:1,2d',
-                    '_x:1,2c,3d',
-                    'esc_html__:1,2d',
-                    'esc_html_e:1,2d',
-                    'esc_html_x:1,2c,3d',
-                    'esc_attr__:1,2d',
-                    'esc_attr_e:1,2d',
-                    'esc_attr_x:1,2c,3d',
-                    '_ex:1,2c,3d',
-                    '_n:1,2,4d',
-                    '_nx:1,2,4c,5d',
-                    '_n_noop:1,2,3d',
-                    '_nx_noop:1,2,3c,4d'
+                '__:1,2d',
+                '_e:1,2d',
+                '_x:1,2c,3d',
+                'esc_html__:1,2d',
+                'esc_html_e:1,2d',
+                'esc_html_x:1,2c,3d',
+                'esc_attr__:1,2d',
+                'esc_attr_e:1,2d',
+                'esc_attr_x:1,2c,3d',
+                '_ex:1,2c,3d',
+                '_n:1,2,4d',
+                '_nx:1,2,4c,5d',
+                '_n_noop:1,2,3d',
+                '_nx_noop:1,2,3c,4d'
                 ]
             },
             files: {
@@ -186,10 +186,10 @@ module.exports = function (grunt) {
                     '**/*.php',         // Include all files
                     '!node_modules/**', // Exclude node_modules/
                     '!vendor/**'        // Exclude vendor/
-                ],
-                expand: true
-            }
-        },
+                    ],
+                    expand: true
+                }
+            },
 
         // PHP Code Sniffer.
         phpcs: {
@@ -202,31 +202,31 @@ module.exports = function (grunt) {
                     '**/*.php',         // Include all files
                     '!node_modules/**', // Exclude node_modules/
                     '!vendor/**'        // Exclude vendor/
-                ]
-            }
-        },
+                    ]
+                }
+            },
 
         // Autoprefixer.
         postcss: {
             options: {
-                map: true,
+                map: false,
                 processors: [
-                    require('autoprefixer')({
-                        browsers: [
-                            'last 4 versions',
-                            '> 0.1%',
-                            'ie 8',
-                            'ie 9',
-                            'ie 7',
-                            'opera 12',
-                            'ff 15'
-                        ]
-                    })
+                require('autoprefixer')({
+                    browsers: [
+                    'last 4 versions',
+                    '> 0.1%',
+                    'ie 8',
+                    'ie 9',
+                    'ie 7',
+                    'opera 12',
+                    'ff 15'
+                    ]
+                })
                 ]
             },
             dist: {
                 src: [
-                    '<%= dirs.css %>/*.css'
+                '<%= dirs.css %>/*.css'
                 ]
             }
         },
@@ -238,24 +238,24 @@ module.exports = function (grunt) {
             },
             files: {
                 src: [
-                    '**',
-                    '!.*',
-                    '!*.md',
-                    '!*.zip',
-                    '!.*/**',
-                    '!sass/**',
-                    '!vendor/**',
-                    '!Gruntfile.js',
-                    '!package-lock.json',
-                    '!composer.json',
-                    '!package.json',
-                    '!composer-lock.json',
-                    '!composer.lock',
-                    '!node_modules/**',
-                    '!phpcs.ruleset.xml',
-                    '!demo-content/**',
-                    '!*.gitignore',
-                    '!requirement.txt',
+                '**',
+                '!.*',
+                '!*.md',
+                '!*.zip',
+                '!.*/**',
+                '!sass/**',
+                '!vendor/**',
+                '!Gruntfile.js',
+                '!package-lock.json',
+                '!composer.json',
+                '!package.json',
+                '!composer-lock.json',
+                '!composer.lock',
+                '!node_modules/**',
+                '!phpcs.ruleset.xml',
+                '!demo-content/**',
+                '!*.gitignore',
+                '!requirement.txt',
                 ],
                 dest: 'newspaper-lite',
                 expand: true
@@ -265,7 +265,7 @@ module.exports = function (grunt) {
             dev: {
                 bsFiles: {
                     src: [
-                        'assets/css/*.css',
+                    'assets/css/*.css',
                     ],
                 },
                 options: {
@@ -304,13 +304,13 @@ module.exports = function (grunt) {
         //'jshint',
         //'uglify',
         //'css'
-    ]);
+        ]);
 
     grunt.registerTask('js', [
         //'jshint',
         'uglify:assets'
 
-    ]);
+        ]);
 
     grunt.registerTask('css', [
         'sass',
@@ -318,21 +318,21 @@ module.exports = function (grunt) {
         'cssmin',
         'rtlcss',
         //'concat'
-    ]);
+        ]);
 
     grunt.registerTask('dev', [
         'default',
         'makepot'
-    ]);
+        ]);
 
     grunt.registerTask('zip', [
         'css',
         'js',
         'makepot',
         'compress'
-    ]);
+        ]);
 
     /*grunt.registerTask('watch', [
         'watch',
-    ]);*/
- };
+        ]);*/
+    };
