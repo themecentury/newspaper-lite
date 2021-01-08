@@ -210,7 +210,7 @@ if (!function_exists('newspaper_lite_tags_dropdown')) :
         $newspaper_lite_tags = get_tags(array('hide_empty' => 0));
         $newspaper_lite_tags_dropdown['0'] = esc_html__('Select Tags', 'newspaper-lite');
         foreach ($newspaper_lite_tags as $newspaper_lite_tag) {
-            $newspaper_lite_tags_dropdown[$newspaper_lite_tag->term_id] = $newspaper_lite_tag->name;
+            $newspaper_lite_tags_dropdown[$newspaper_lite_tag->term_id] = $newspaper_lite_tag->name .' ('.$newspaper_lite_tag->count.')';
         }
 
         return $newspaper_lite_tags_dropdown;
@@ -631,15 +631,15 @@ if (!function_exists('newspaper_lite_author_box_hook')):
                     href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"><?php echo esc_html($author_nickname); ?></a>
                     <div class="author-description"><?php echo get_the_author_meta('description'); ?></div>
                     <a href="<?php echo esc_url(get_the_author_meta('user_url')); ?>"
-                     target="_blank"><?php echo esc_url(get_the_author_meta('user_url')); ?></a>
-                 </div><!-- .author-desc-wrapper-->
-             </div><!--newspaper-lite-author-wrapper-->
-             <?php
-         }
-     }
- endif;
+                       target="_blank"><?php echo esc_url(get_the_author_meta('user_url')); ?></a>
+                   </div><!-- .author-desc-wrapper-->
+               </div><!--newspaper-lite-author-wrapper-->
+               <?php
+           }
+       }
+   endif;
 
- /*------------------------------------------------------------------------------------------------*/
+   /*------------------------------------------------------------------------------------------------*/
 /**
  * Related articles
  */
